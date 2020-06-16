@@ -1,0 +1,4996 @@
+    1  pwd
+    2  ll
+    3  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k\n
+    4  vim ~/.zsh
+    5  vim ~/.zshrc
+    6  exit
+    7  
+    8  
+    9  pwd
+   10  ls -ltra 
+   11  cd AWS
+   12  cd code
+   13  ll
+   14  cd ACD-Pune-2020-ML-Workshop
+   15  exit
+   16  ~/.p10k.zsh
+   17  sudo ~/.p10k.zsh
+   18  sudo ~/.p10k.zsh.
+   19  pwd
+   20  ls -ltra 
+   21  exit
+   22  p10k configure
+   23  pwd
+   24  ll
+   25  pwd
+   26  vim shade-of-purple.itermcolor
+   27  vim ~/.vimrc
+   28  vim shade-of-purple.itermcolor
+   29  vim ~/.vimrc
+   30  vim shade-of-purple.itermcolor
+   31  vim ~/.vimrc
+   32  vim shade-of-purple.itermcolor
+   33  vim ~/.vimrc
+   34  vim shade-of-purple.itermcolor
+   35  vim ~/.vimrc
+   36  pwd
+   37  git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime\n
+   38  sh ~/.vim_runtime/install_awesome_vimrc.sh\n
+   39  vim shade-of-purple.itermcolor
+   40  vim ~/.vimrc
+   41  vim shade-of-purple.itermcolor
+   42  vim ~/.vimrc
+   43  vim shade-of-purple.itermcolor
+   44  vim ~/.vimrc
+   45  vim shade-of-purple.itermcolor
+   46  vim ~/.vimrc
+   47  pwd
+   48  cd AWS
+   49  ll
+   50  vim test.py
+   51  cd ~
+   52  ll
+   53  rm -rf shade-of-purple.itermcolor
+   54  cd 1
+   55  rm -rf 1
+   56  ll
+   57  pwd
+   58  cd Downloads
+   59  ll
+   60  ll *.pem
+   61  ssh -i demo.pem ubuntu@3.233.238.124
+   62  chmod 400 demo.pem
+   63  ssh -i demo.pem ubuntu@3.233.238.124
+   64  ssh -i demo.pem ubuntu@3.86.229.61
+   65  aws s3 ls
+   66  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+   67  sudo installer -pkg AWSCLIV2.pkg -target /
+   68  aws ls
+   69  aws s3 ls
+   70  aws s3 mb ode-workshop
+   71  aws s3 mb "ode-workshop"
+   72  aws s3 mb --help
+   73  aws s3 mb help
+   74  aws s3 mb s3://osde-workshop
+   75  aws s3 ls
+   76  cd ~
+   77  cd AWS
+   78  ll
+   79  cd code
+   80  git clone https://github.com/opendistro-for-elasticsearch/community.git
+   81  cd community
+   82  ll
+   83  cd cloudformation-deployment
+   84  ll
+   85  vim od4es.json
+   86  code od4es.json
+   87  code
+   88  bash
+   89  ll
+   90  chmod +x package-to-s3.sh
+   91  chmod u+x package-to-s3.sh
+   92  ./package-to-s3.sh
+   93  cd ~/Downloads
+   94  ssh -i demo.pem ubuntu@35.171.4.221\n
+   95  chmod 600 demo.pem 
+   96  ssh -i demo.pem ubuntu@35.171.4.221\n
+   97  ssh -i demo.pem ubuntu@18.215.126.34\n
+   98  ll
+   99  ./package-to-s3.sh
+  100  ll
+  101  vim old.json
+  102  diff od4es.json old.json
+  103  rm -rf old.json
+  104  rm -rf client-nodes.json
+  105  vim client-nodes.json
+  106  rm -rf data-nodes.json
+  107  vim data-nodes.json
+  108  rm -rf master-nodes.json
+  109  vim master-nodes.json
+  110  vim network.json
+  111  rm -rf network.json
+  112  vim network.json
+  113  ll
+  114  ./package-to-s3.sh
+  115  ll
+  116  vim test.json
+  117  diff test.json network.json
+  118  vim ricardo.json
+  119  vim work.json
+  120  diff ricardo.json work.json
+  121  ll
+  122  rm -rf README.md
+  123  rm -rf ricardo.json
+  124  rm -rf work.json test.json
+  125  ll
+  126  rm -rf *
+  127  ll
+  128  git pull
+  129  ll
+  130  git --help
+  131  git pull 
+  132  cd ..
+  133  ll
+  134  git pull
+  135  ll
+  136  cd open-distro-elasticsearch-kubernetes
+  137  ll
+  138  cd ..
+  139  cd cloudformation-deployment
+  140  ll
+  141  cd ..
+  142  rm -rf community
+  143  ll
+  144  cd ~/Downloads
+  145  chmod 400 ec2-key-ohio.pem\n
+  146  ssh -i "ec2-key-ohio.pem" ubuntu@13.59.166.37\n
+  147  ssh -i "ec2-key-ohio.pem" ubuntu@3.133.140.229\n
+  148  ssh -i "ec2-key-ohio.pem" ubuntu@3.133.103.119\n
+  149  ssh -i "ec2-key-ohio.pem" ubuntu@3.12.104.130\n
+  150  ls -ltra
+  151  cd ~
+  152  cd AWS/Workshops
+  153  ll
+  154  cd AWS-ML
+  155  ll
+  156  cd ml-on-aws-acdpune-feb-2020
+  157  ll
+  158  mkbuild 
+  159  mkdoc 
+  160  pip install mkdocs
+  161  bash
+  162  ls -ltra ~
+  163  aws ls s3
+  164  cd ~
+  165  wget https://bootstrap.pypa.io/get-pip.py
+  166  python get-pip.py
+  167  cd Downloads
+  168  chmod 400 ec2-key-ireland.pem\n
+  169  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97\n
+  170  cd Downloads
+  171  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97\n
+  172  cd Downloads
+  173  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97\n
+  174  cd Downloads
+  175  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97\n
+  176  cd Downloads
+  177  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97\n
+  178  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97
+  179  cd Do
+  180  cd Downloads
+  181  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97
+  182  cd Downloads
+  183  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97
+  184  cd Downloads
+  185  ssh -i "ec2-key-ireland.pem" ubuntu@34.245.161.97
+  186  cd ~
+  187  ls -la
+  188  vim .bash_profile-anaconda3.bak
+  189  history | grep bash
+  190  echo $PATH
+  191  vim ~/.zshrc
+  192  source .zshrc
+  193  exit
+  194  python
+  195  ll .bash_
+  196  /usr/bin/nano .bash_profile\n\n
+  197  ll .bash_history
+  198  vim .bash_profile
+  199  brew install bash\n
+  200  bash
+  201  pwd
+  202  ll
+  203  ls -ltrea 
+  204  ls
+  205  exit
+  206  ll .bash_sessions
+  207  export PATH=/bin:/usr/bin:/usr/local/bin
+  208  vi ~/.bash_profile
+  209  ls -al
+  210  echo $SHELL
+  211  sudo port install zsh zsh-completions\n
+  212  vim ~/.zshrc
+  213  autoload -U compinit && compinit
+  214  aws s3 ls
+  215  python
+  216  cd Downloads
+  217  ll *.pem
+  218  chmod 400 iitj-system.pem\n
+  219  ssh -i "iitj-system.pem" ubuntu@ec2-3-94-132-97.compute-1.amazonaws.com\n
+  220  /Users/debnsuma/opt/anaconda3/bin/jupyter-notebook ; exit;
+  221  ll
+  222  cd Random
+  223  ll
+  224  mkdir Photo_Backup
+  225  cd Photo_Backup
+  226  mkdir 16_Feb_2020
+  227  cd 16_Feb_2020
+  228  cp -r ~/Pictures/Photos\ Library.photoslibrary .
+  229  ll
+  230  cd Applications
+  231  ll
+  232  cd..
+  233  ll
+  234  cd ..
+  235  ll
+  236  cd debnsuma
+  237  ll
+  238  cd Documents
+  239  kk
+  240  ll
+  241  cd ~/Pictures/Photos Library.photoslibrary/Masters/\n\n
+  242  ll
+  243  cd Pictures/Photos\ Library.photoslibrary
+  244  ll
+  245  ls
+  246  cd ..
+  247  ll
+  248  cd Photos\ Library.photoslibrary
+  249  ll
+  250  ls
+  251  cd ..
+  252  top
+  253  sudo cp /Library/Application\ Support/Amazon/ACME\ Updates.app/Contents/Library/LaunchServices/com.amazon.acme.helper.updates /Library/PrivilegedHelperTools/
+  254  history | grep ssh
+  255  ping /172.20.10.4
+  256  ping 172.20.10.4
+  257  ll
+  258  ls -al
+  259  cat .bash_profile
+  260  echo $PATH
+  261  python
+  262  source ~/.bash_profile\n
+  263  echo $PATH
+  264  python
+  265  exit
+  266  echo $PATH
+  267  python
+  268  cat ~/.bash_profile
+  269  cat ~/.shell.pre-oh-my-zsh
+  270  vim ~/.zshrc
+  271  exit
+  272  python
+  273  mkdoc --help
+  274  pip --version
+  275  pip install --upgrade pip\n
+  276  pip install mkdocs\n
+  277  mkdoc help
+  278  mkdocs --help
+  279  awscli s3 ls
+  280  awscli 
+  281  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+  282  sudo installer -pkg ./AWSCLIV2.pkg -target /
+  283  which aws
+  284  aws --version
+  285  aws config
+  286  aws configure
+  287  aws s3 ls
+  288  ll
+  289  cd AWS
+  290  ll
+  291  cd udemy-dl
+  292  ll
+  293  git pull
+  294  pip --version
+  295  pip3 --version
+  296  pip3.7 --version
+  297  npm -v
+  298  brew install node
+  299  npm -v
+  300  node -v
+  301  docker version
+  302  npm install -g serverless
+  303  nodejs -v
+  304  node -v
+  305  serverless --version
+  306  serverless
+  307  vim ~/.zshrc
+  308  source ~/.zshrc
+  309  aws ls
+  310  aws s3 ls
+  311  sls config
+  312  sls config credentials --provider aws --key AKIAXMQUPTNEFQ32UH7B --secret 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 
+  313  sls config credentials --help
+  314  sls config credentials --provider aws --key AKIAXMQUPTNEFQ32UH7B --secret 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 --profile serverless
+  315  cd .aws
+  316  ll
+  317  vim credentials
+  318  vim config
+  319  l
+  320  cd ~
+  321  ll
+  322  cd aws
+  323  cd code
+  324  ll
+  325  mkdir ML-Serverless 
+  326  cd ML-Serverless
+  327  ll
+  328  mkdir hello-world
+  329  cd hello-world
+  330  ll
+  331  sls create --template aws-python3 --name hello-service 
+  332  ls -l
+  333  cd ..
+  334  code .
+  335  source /Users/debnsuma/opt/anaconda3/bin/activate
+  336  conda activate base
+  337  /Users/debnsuma/opt/anaconda3/bin/python /Users/debnsuma/AWS/code/ML-Serverless/hello-world/handler.py
+  338  echo $SHELL
+  339  pwd
+  340  ll
+  341  cd hello-world
+  342  ll
+  343  ls -ltra 
+  344  cls
+  345  l
+  346  cls
+  347  clr
+  348  cls
+  349  clear
+  350  ll
+  351  sls deploy
+  352  sls --help
+  353  ll
+  354  ¬
+  355  cd ..
+  356  ll
+  357  conda create -n sciket-dev python=3.6
+  358  conda activate scikit-dev
+  359  conda activate sciket-dev
+  360  conda conda activate sciket-dev
+  361  conda activate sciket-dev
+  362  conda config --set pip_interop_enabled True\n
+  363  conda activate sciket-dev
+  364  conda init --help
+  365  conda init
+  366  conda activate sciket-dev
+  367  conda init --help
+  368  conda init -d
+  369  vim ~/.bash_profile
+  370  conda activate sciket-dev
+  371  conda init zsh
+  372  conda activate sciket-dev
+  373  exit
+  374  ¬
+  375  pwd
+  376  cd aws
+  377  ll
+  378  cd code
+  379  ll
+  380  cd ML-Serverless
+  381  ll
+  382  conda activate scikit-dev
+  383  conda info --envs
+  384  conda --help
+  385  conda env --help
+  386  conda info --envs
+  387  conda env remove sciket-dev
+  388  conda env remove --help
+  389  conda info --envs
+  390  conda env remove -p /Users/debnsuma/opt/anaconda3/envs/sciket-dev
+  391  conda create -n scikit-dev python=3.6
+  392  conda activate scikit-dev
+  393  conda install scikit-learn=0.20.2 jupyter pylint rope
+  394  ps -aux | grep pycharm
+  395  ps -au | grep pycharm
+  396  ps
+  397  ps ax
+  398  ps ax | grep pycharm
+  399  pkill -9 16511
+  400  ps ax | grep pycharm
+  401  kill -9 16511
+  402  conda install scikit-learn=0.20.2 jupyter pylint rope
+  403  conda update -n base -c defaults conda
+  404  conda list
+  405  conda install scikit-learn=0.20.2
+  406  conda list
+  407  conda install scikit-learn=0.20.2 jupyter pylint rope
+  408  conda list
+  409  ll
+  410  mkdir scikit-code
+  411  ll
+  412  ls
+  413  ll -d
+  414  cd scikit-code
+  415  ll
+  416  jupyter notebook
+  417  conda install pandas
+  418  jupyter notebook
+  419  cd AWS/code
+  420  ll
+  421  cd ML-Serverless
+  422  ll
+  423  cd scikit-code
+  424  ll
+  425  sls create --template aws-python3 --name california-housing 
+  426  ls -l
+  427  sls plugin install -n serverless-python-requirements@4.2.4
+  428  ll
+  429  cd node_modules
+  430  ll
+  431  cd ..
+  432  ll
+  433  source /Users/debnsuma/opt/anaconda3/bin/activate
+  434  conda activate scikit-dev
+  435  /Users/debnsuma/opt/anaconda3/envs/scikit-dev/bin/python /Users/debnsuma/AWS/code/ML-Serverless/scikit-code/handler.py
+  436  history
+  437  cd ~
+  438  p10k configure
+  439  cd - 
+  440  /Users/debnsuma/opt/anaconda3/envs/scikit-dev/bin/python /Users/debnsuma/AWS/code/ML-Serverless/scikit-code/handler.py
+  441  ¬
+  442  sls invoke local --function predict-price --path event.json
+  443  ¬
+  444  cls
+  445  clear
+  446  ¬
+  447  ls
+  448  conda activate scikit-dev
+  449  sls invoke local --function predict-price --path event.json
+  450  ll
+  451  python handler.py
+  452  ll
+  453  rm -rf event.json
+  454  python handler.py
+  455  ll
+  456  sls invoke local --function predict-price --path event.json
+  457  clear
+  458  ll
+  459  sls deploy
+  460  sls invoke --function predict-price --path event.json
+  461  cat event.json
+  462  sls invoke --function predict-price --path event.json
+  463  cd ..
+  464  ll
+  465  conda deactivate 
+  466  conda create -n spacy-dev python=3.6 pylint rope jupyter 
+  467  conda activate spacy-dev
+  468  pip --version
+  469  pip install spacy
+  470  ll
+  471  cd scikit-code
+  472  conda deactivate
+  473  conda env 
+  474  ll
+  475  cd ..
+  476  ll
+  477  mkdir nlp-code
+  478  cd nlp-code
+  479  conda env --help
+  480  conda env list
+  481  conda activate spacy-dev
+  482  python --version
+  483  python -m spacy download en_core_web_sm
+  484  python
+  485  ll
+  486  jupyter notebook
+  487  cd ..
+  488  ll
+  489  cd nlp-code
+  490  ll
+  491  conda activate spacy-dev
+  492  sls create --template aws-python3 --name ner-api
+  493  ll
+  494  sls plugin install -n serverless-python-requirements@4.2.4
+  495  source /Users/debnsuma/opt/anaconda3/bin/activate
+  496  conda activate scikit-dev
+  497  source /Users/debnsuma/opt/anaconda3/bin/activate
+  498  conda activate scikit-dev
+  499  source /Users/debnsuma/opt/anaconda3/bin/activate
+  500  conda activate spacy-dev
+  501  /Users/debnsuma/opt/anaconda3/envs/spacy-dev/bin/python
+  502  conda deactivate
+  503  cd ~
+  504  ll
+  505  pwd
+  506  ll
+  507  mkdir IIT_J_PG
+  508  cd IIT_
+  509  cd IIT_PG
+  510  ll
+  511  cd ..
+  512  ll
+  513  rm -rg IIT_PG
+  514  rm -rf IIT_PG
+  515  ll
+  516  cd IIT_J_PG
+  517  ll
+  518  jupyter notebook
+  519  jupyter-notebook
+  520  cd ~
+  521  cd AWS
+  522  cd code
+  523  cd ML-Serverless
+  524  ll
+  525  cd nlp-code
+  526  ll
+  527  conda activate spacy-dev
+  528  sls invoke local --function recognize-named-entites --path event.json
+  529  sls deploy
+  530  sls invoke --function recognize-named-entites --path event.json --log
+  531  sls invoke --function recognize-named-entites --path event.json 
+  532  cd ..
+  533  mkdir nlp-code2
+  534  cd nlp-code2
+  535  ll
+  536  sls create --template aws-python3 --name parse-api
+  537  ll
+  538  sls plugin install -n serverless-python-requirements@4.2.4
+  539  sls invoke local --function parse-text --path event.json
+  540  sls deploy
+  541  sls invoke local --function parse-text --path event.json
+  542  sls invoke --function parse-text --path event.json
+  543  sls invoke --function parse-text --path event.json --logs
+  544  sls invoke --function parse-text --path event.json --log
+  545  python
+  546  sls invoke local --function parse-text --path event.json
+  547  sls invoke --function parse-text --path event.json --log
+  548  conda install numpy
+  549  pip uninstall numpy\n
+  550  conda install numpy\n
+  551  sls invoke local --function parse-text --path event.json
+  552  conda install numpy\n
+  553  pip install numpy
+  554  sls invoke local --function parse-text --path event.json
+  555  sls deploy
+  556  sls invoke local --function parse-text --path event.json
+  557  sls invoke --function parse-text --path event.json --log
+  558  sls deploy
+  559  sls invoke --function parse-text --path event.json --log
+  560  sls invoke local --function parse-text --path event.json
+  561  ls -ltra 
+  562  cd .serverless
+  563  ll
+  564  chmod u=rwx,go=r parse-api.zip
+  565  ll
+  566  cd ..
+  567  sls deploy
+  568  sls invoke local --function parse-text --path event.json
+  569  sls invoke --function parse-text --path event.json --log
+  570  sls deploy
+  571  sls invoke --function parse-text --path event.json --log
+  572  cat event.json
+  573  cd ..
+  574  lll
+  575  ll
+  576  cd web-gui-code
+  577  ll
+  578  pwd
+  579  aws s3 sync /Users/debnsuma/AWS/code/ML-Serverless/web-gui-code/ s3://awsml-serverless-workshop\n --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+  580  aws s3 sync /Users/debnsuma/AWS/code/ML-Serverless/web-gui-code/ s3://awsml-serverless-workshop --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers 
+  581  pwd
+  582  conda deactivate
+  583  cd ../..
+  584  cd -
+  585  cd ..
+  586  aws s3 sync /Users/debnsuma/AWS/code/ML-Serverless/web-gui-code/ s3://awsml-serverless-workshop --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers 
+  587  cd ..
+  588  ll
+  589  cd ..
+  590  ll
+  591  cd IIT_J_PG
+  592  ll
+  593  jupyter notebook
+  594  conda deactivate
+  595  cd ..
+  596  ll
+  597  mkdir keras-code
+  598  cd keras-code
+  599  conda create 0n keras-dev python=3.6 pylint rope jupyter
+  600  conda create -n keras-dev python=3.6 pylint rope jupyter
+  601  conda activate keras-dev
+  602  history
+  603  pip install tensorflow==1.12.0 keras=2.2.4 boto3 pillow
+  604  pip install tensorflow==1.12.0 keras==2.2.4 boto3 pillow
+  605  cp ~/Downloads/elephant.jpg .
+  606  ll
+  607  jupyter-notebook
+  608  pip install  keras
+  609  pip --help
+  610  pip uninstall  keras
+  611  pip install  keras
+  612  jupyter-notebook
+  613  pip uninstall tensorflow==1.12.0 
+  614  pip install  tensorflow
+  615  jupyter-notebook
+  616  mv Downloads/resnet50_weights_tf_dim_ordering_tf_kernels.h5 /tmp/resnet50_weights_tf_dim_ordering_tf_kernels.h5
+  617  ll /tmp/resnet50_weights_tf_dim_ordering_tf_kernels.h5
+  618  ll tmp/resnet50_weights_tf_dim_ordering_tf_kernels.h5
+  619  ls tmp/resnet50_weights_tf_dim_ordering_tf_kernels.h5
+  620  ll
+  621  cd AWS/code/ML-Serverless/keras-code
+  622  ll
+  623  mv /tmp/resnet50_weights_tf_dim_ordering_tf_kernels.h5 tmp
+  624  ll tmp
+  625  aws configure
+  626  cd code
+  627  cd AWS
+  628  cd AWS_Summit_2020_Mumbai
+  629  cd ..
+  630  cd code
+  631  ll
+  632  cd ML-Serverless
+  633  ll
+  634  cd keras-code
+  635  conda activate keras-dev
+  636  jupyter notebook
+  637  cat .aws/config
+  638  serverless --help
+  639  cd aws
+  640  cd code
+  641  ll
+  642  cd ML-Serverless
+  643  ll
+  644  serverless
+  645  ll
+  646  cd demo-python-sl-project
+  647  ll
+  648  code .
+  649  vim serverless.yml
+  650  cd ..
+  651  ll
+  652  cd hello-world
+  653  ll
+  654  vim serverless.yml
+  655  cd ~
+  656  export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\n\n
+  657  code .
+  658  vim ~/.bash_profile
+  659  vim ~/.zshrc
+  660  exit
+  661  cd aws
+  662  code .
+  663  cd code
+  664  ll
+  665  cd ML-Serverless
+  666  ll
+  667  pwd
+  668  ll
+  669  cd hello-world
+  670  ll
+  671  cat cmds
+  672  rm -rf cmd
+  673  l
+  674  cd ..
+  675  rm -rf hello-world
+  676  mkdir hello-world
+  677  sls create --template aws-python3 --name hello-service 
+  678  ll
+  679  rm -rf serverless.yml
+  680  rm -rf handler.py
+  681  rm -rf hello-world
+  682  ll
+  683  mkdir hello-world
+  684  cd hello-world
+  685  sls create --template aws-python3 --name hello-service 
+  686  ll
+  687  sls deploy
+  688  cd ..
+  689  ll
+  690  cd ..
+  691  git clone https://github.com/debnsuma/DevOpsML_Meetup_Mumbai.git
+  692  ll
+  693  cd De
+  694  cd DevOpsML_Meetup_Mumbai
+  695  ll
+  696  echo "# DevOpsML_Meetup_Mumbai" >> README.md
+  697  git add .
+  698  git commit -m "first commit"
+  699  git push
+  700  ll
+  701  cp -r ../ML-Serverless/hello-world
+  702  mv ../ML-Serverless/hello-world .
+  703  ll
+  704  mkdir keras-demo
+  705  cd keras-demo
+  706  ll
+  707  conda env list
+  708  conda activate keras-dev
+  709  cp ../../ML-Serverless/keras-code/* .
+  710  ll
+  711  ll ../../ML-Serverless/keras-code/
+  712  jupyter-notebook
+  713  cd AWS/code
+  714  cd DevOpsML_Meetup_Mumbai
+  715  cd keras-demo
+  716  ll
+  717  ll /tmp
+  718  rm -rf /tmp
+  719  ll
+  720  rm -rf tmp
+  721  ll
+  722  cd ..
+  723  ll
+  724  cd DevOpsML_Meetup_Mumbai
+  725  ll
+  726  cd ..
+  727  rm -rf DevOpsML_Meetup_Mumbai
+  728  ll
+  729  cd ..
+  730  cd ML-Serverless
+  731  ll
+  732  conda env list 
+  733  conda activate scikit-code
+  734  conda activate scikit-dev
+  735  ll
+  736  cd scikit-code
+  737  ll
+  738  jupyter-notebook
+  739  source /Users/debnsuma/opt/anaconda3/bin/activate
+  740  conda activate base
+  741  /Users/debnsuma/opt/anaconda3/bin/python /Users/debnsuma/AWS/code/ML-Serverless/scikit-code/handler.py
+  742  pwd
+  743  cd aws
+  744  cd code 
+  745  ll
+  746  cd ML-Serverless
+  747  ll
+  748  cd scikit-code
+  749  ll
+  750  vim event.json
+  751  brew install jq
+  752  ll
+  753  cat event.json| jq
+  754  conda activate sciket-dev
+  755  conda env list
+  756  conda activate scikit-dev
+  757  ¬
+  758  ll
+  759  python handler.py
+  760  pwd
+  761  sls invoke local --function predict-price --path event.json
+  762  cat event.json | jq 
+  763  sls invoke local --function predict-price --path event.json
+  764  sls deploy
+  765  sls invoke --function predict-price --path event.json
+  766  aws s3 sync /Users/debnsuma/AWS/code/ML-Serverless/web-gui-code/ s3://awsml-serverless-workshop --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers 
+  767  cd ..
+  768  ll
+  769  cd nlp-code
+  770  conda env list 
+  771  conda activate spacy-dev
+  772  jupyter-notebook
+  773  cd ..
+  774  cd nlp-code2
+  775  ll
+  776  cd ..
+  777  ll
+  778  cd scikit-code
+  779  jupyter-notebook
+  780  cd ..
+  781  echo "# ML-Serverless" >> README.md
+  782  git init
+  783  git add .
+  784  ls -ltra 
+  785  ls -ltr
+  786  cat .gitignore
+  787  ls -ltra
+  788  code .
+  789  git add .
+  790  git commit -m "first commit"
+  791  git remote add origin https://github.com/debnsuma/ML-Serverless.git
+  792  git push -u origin master
+  793  git add .
+  794  git commit -m "first commit"
+  795  git push -u origin master
+  796  git add .
+  797  git commit -m "first commit"
+  798  git push -u origin master
+  799  git add .
+  800  git commit -m "first commit"
+  801  git push -u origin master
+  802  git add .
+  803  ls -ltra 
+  804  git add .
+  805  git commit -m "first commit"
+  806  git push -u origin master
+  807  ll
+  808  cd hello-world
+  809  ll
+  810  ls -ltra 
+  811  rm -rf demo-python-sl-project
+  812  ll
+  813  pwd
+  814  ll
+  815  vim serverless.yml
+  816  ls -ltra 
+  817  rm -rf serverless.yml
+  818  pwd
+  819  ll
+  820  kk
+  821  ll
+  822  sls create --template aws-python3 --name hello-service
+  823  ll
+  824  sls deploy
+  825  cd ..
+  826  pwd
+  827  ll
+  828  ls -ltra 
+  829  rm -rf .git*
+  830  ll
+  831  rm -rf demo-python-sl-project
+  832  ll
+  833  git init
+  834  ll
+  835  pwd
+  836  ll
+  837  code .
+  838  ls -ltra 
+  839  code .
+  840  code .git
+  841  cd ..
+  842  cd -
+  843  cd .git
+  844  ll
+  845  code .
+  846  ll
+  847  cd ..
+  848  pwd
+  849  ll
+  850  pwd
+  851  ll
+  852  echo "# ML-Serverless" >> README.md
+  853  rm -rf *.git
+  854  ls -ltra 
+  855  pwd
+  856  ll
+  857  git status
+  858  pwd
+  859  git add .
+  860  git commit -m "first commit"
+  861  git remote add origin https://github.com/debnsuma/ML-Serverless.git
+  862  git push -u origin master
+  863  pwd
+  864  ls -ltra 
+  865  rm -rf .git*
+  866  ll
+  867  code .
+  868  cd ..
+  869  cd ML-Serverless-DevOps-Mumbai
+  870  ll
+  871  echo "# ML-Serverless" >> README.md
+  872  git init
+  873  git add README.md\ngit commit -m "first commit"\ngit remote add origin https://github.com/debnsuma/ML-Serverless.git
+  874  git add .
+  875  git remote add origin https://github.com/debnsuma/ML-Serverless.git
+  876  ll
+  877  rm -rf .git*
+  878  cd ..
+  879  git clone https://github.com/debnsuma/ML-Serverless-DevOps-Mumbai.git
+  880  cd ML-Serverless-DevOps-Mumbai
+  881  cp -r ../ML-Serverless-DevOps-Mumbai-backup/* .
+  882  ll
+  883  git add .
+  884  git commit -m "first commit"
+  885  git push 
+  886  pwd
+  887  cd ~
+  888  cd Downloads
+  889  ^[[200~ssh -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com
+  890  ~ssh -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com\n
+  891  ssh -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com\n
+  892  ssh -X -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com\n
+  893  cd Downloads
+  894  ssh -L 5901:127.0.0.1:5901 -C -N -l -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com
+  895  ssh -L 5901:127.0.0.1:5901 -C -N -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com
+  896  ssh -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com
+  897  #ssh  -L 5901:127.0.0.1:5901 -C -N -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com
+  898  ssh -h
+  899  ssh  -L 5901:127.0.0.1:5901 -C -N -i "demo.pem" ubuntu@ec2-3-89-119-157.compute-1.amazonaws.com
+  900  pwd
+  901  git clone https://github.com/debnsuma/ML-Serverless-DevOps-Mumbai.git
+  902  pwd
+  903  ll
+  904  cd ML-Serverless-DevOps-Mumbai
+  905  ll
+  906  cd hello-world
+  907  ll
+  908  conda activate sickit-dev
+  909  conda env list 
+  910  conda activate sickit-dev
+  911  conda activate /Users/debnsuma/opt/anaconda3/envs/scikit-dev
+  912  ll
+  913  sls deploy
+  914  cd ..
+  915  ll
+  916  cd scikit-code
+  917  sls deploy
+  918  pwd
+  919  ll
+  920  sls create --template aws-python3 --name california-housing
+  921  cp -r ../ML-Serverless-DevOps-Mumbai-backup/* .
+  922  pwd
+  923  ls -ltra 
+  924  cd ../ML-Serverless-DevOps-Mumbai-backup/
+  925  ls -ltra 
+  926  cd -
+  927  cd scikit-code
+  928  ll
+  929  ls -ltra 
+  930  pwd
+  931  cd ..
+  932  cd ML-Serverless
+  933  ll
+  934  cd scikit-code
+  935  sls deploy
+  936  cd ~/
+  937  cd AWS/code/ML-Serverless
+  938  ll
+  939  cd ~
+  940  cd Downloads
+  941  git clone https://github.com/debnsuma/ML-Serverless-Mumbai.git
+  942  cd ML-Serverless-Mumbai
+  943  cp -r ~/AWS/code/ML-Serverless/* .
+  944  ll
+  945  cd hello-world
+  946  ll
+  947  ls -ltra 
+  948  cd ..
+  949  ll
+  950  cd keras-code
+  951  ls -ltra
+  952  cd ..
+  953  pwd
+  954  ll
+  955  cd nlp-code
+  956  ls -ltra 
+  957  rm -rf .requirements.zip
+  958  cd ..
+  959  cd nlp-code2
+  960  rm -rf .requirements.zip
+  961  cd ..
+  962  ll
+  963  cd scikit-code
+  964  ll
+  965  ls -ltra 
+  966  cd ..
+  967  git add .
+  968  git commit -m "first commit"
+  969  git push
+  970  ll
+  971  cd nlp-code
+  972  ls -ltra 
+  973  cd nlp-codecd ..
+  974  pwd
+  975  cd ..
+  976  git push
+  977  jupyter-notebook
+  978  cd code
+  979  cd aws
+  980  cd code
+  981  ll
+  982  cd ML-Serverless
+  983  conda env list 
+  984  conda activate scikit-dev
+  985  ll
+  986  code .
+  987  cd hello-world
+  988  ll
+  989  cd ..
+  990  mkdir demo
+  991  cd demo
+  992  sls create --template aws-python3 --name hello-service
+  993  ll
+  994  cd ..
+  995  cd hello-world
+  996  ll
+  997  sls deploy
+  998  pwd
+  999  cd ..
+ 1000  cd /Users/debnsuma/aws/code/ML-Serverless/hello-world
+ 1001  cd ..
+ 1002  jupyter-notebook
+ 1003  cd scikit-code
+ 1004  ll
+ 1005  sls invoke local --function predict-price --path event.json
+ 1006  sls invoke --function predict-price --path event.json
+ 1007  cat event.json| jq
+ 1008  python handler.py
+ 1009  ll
+ 1010  cd ..
+ 1011  cd hello-world
+ 1012  cd ..
+ 1013  mkdir demo123
+ 1014  cd demo123
+ 1015  sls create --template aws-python3 --name demo-function
+ 1016  ll
+ 1017  vim handler.py
+ 1018  vim serverless.yml
+ 1019  ¬
+ 1020  cd ..
+ 1021  cd hello-world
+ 1022  ll
+ 1023  sls deploy
+ 1024  vim handler.py
+ 1025  cd ..
+ 1026  cd scikit-code
+ 1027  cat event.json| jq
+ 1028  sls invoke local --function predict-price --path event.json
+ 1029  sls deploy
+ 1030  docker ls
+ 1031  cd aws
+ 1032  cd code
+ 1033  ll
+ 1034  cd ML-Serverless-for-git
+ 1035  ls -ltra
+ 1036  rm -rf .vscode
+ 1037  rm -rf .DS_Store
+ 1038  ls -ltra
+ 1039  cd nlp-code
+ 1040  ls -ltra
+ 1041  rm -rf .ipynb_checkpoints*
+ 1042  rm -rf .gitignore
+ 1043  rm -rf .requirements.zip .serverless .DS_Store
+ 1044  ls -ltra 
+ 1045  cd ..
+ 1046  ll
+ 1047  cd nlp-code2
+ 1048  ls -ltra
+ 1049  rm -rf .requirements.zip
+ 1050  rm -rf .serverless 
+ 1051  rm -rf .DS_Store
+ 1052  ls -ltra 
+ 1053  cd ..
+ 1054  ll
+ 1055  cd scikit-code
+ 1056  ls -ltra 
+ 1057  rm -rf .serverless .DS_Store
+ 1058  ls -ltra 
+ 1059  cd ..
+ 1060  git clone https://github.com/debnsuma/ML-Serverless-Mumbai-2020.git
+ 1061  cd ML-Serverless-Mumbai-2020
+ 1062  ll
+ 1063  ls -ltra 
+ 1064  mv -r ../ML-Serverless-for-git/* .
+ 1065  mv  ../ML-Serverless-for-git/* .
+ 1066  ll
+ 1067  git add .
+ 1068  git commit -m "first commit"
+ 1069  git push
+ 1070  git add .
+ 1071  git commit -m "first commit"
+ 1072  git push
+ 1073  history
+ 1074  ll
+ 1075  cd aws
+ 1076  ll
+ 1077  mkdir dry
+ 1078  cd dry 
+ 1079  ll
+ 1080  mkdir scikit-code
+ 1081  cd scikit-code
+ 1082  conda create -n scikit-dev1 python=3.6
+ 1083  conda env list
+ 1084  conda remove /Users/debnsuma/opt/anaconda3/envs/scikit-dev1
+ 1085  conda create -n scikit-dev1 python=3.6
+ 1086  conda activate scikit-dev1
+ 1087  conda install scikit-learn=0.20.2 jupyter pylint rope
+ 1088  sls create --template aws-python3 --name california-housing
+ 1089  ll
+ 1090  code .
+ 1091  cd AWS/code
+ 1092  ll
+ 1093  cd ML-Serverless-Mumbai-2020
+ 1094  ll
+ 1095  cd scikit-code
+ 1096  cd ..
+ 1097  code .
+ 1098  sls plugin install -n serverless-python-requirements@4.2.4
+ 1099  ll
+ 1100  sls invoke local --function predict-price --path event.json
+ 1101  ll
+ 1102  cp ~/AWS/code/ML-Serverless-Mumbai-2020/scikit-code/event.json .
+ 1103  sls invoke local --function predict-price --path event.json
+ 1104  sls deploy 
+ 1105  cp ~/AWS/code/ML-Serverless-Mumbai-2020/scikit-code/requirements.txt .
+ 1106  sls deploy 
+ 1107  git add . 
+ 1108  git commit -m "added the notes.yml"
+ 1109  git push
+ 1110  git add . 
+ 1111  git commit -m "added the notes.yml"
+ 1112  git push
+ 1113  whereis aws
+ 1114  aws s3 ls
+ 1115  vim ~/.bash_profile
+ 1116  vim ~/.zshrc
+ 1117  history | grep awscli
+ 1118  history 
+ 1119  history | sls con
+ 1120  history | grep "sls con"
+ 1121  sls --version
+ 1122  cat ~/.aws/config
+ 1123  vim ~/.bash_profile | grep conda
+ 1124  cat ~/.bash_profile | grep conda
+ 1125  vim ~/.bash_profile
+ 1126  conda env list 
+ 1127  history | grep conda
+ 1128  echo $SHELL
+ 1129  pwd
+ 1130  ll
+ 1131  cd scikit-code
+ 1132  ll
+ 1133  docker info
+ 1134  docker --version
+ 1135  docker info 
+ 1136  docker --help 
+ 1137  cd ..
+ 1138  ll
+ 1139  cd ML-Serverless
+ 1140  ll
+ 1141  cd ..
+ 1142  cd ~
+ 1143  cd AWS/code
+ 1144  cd ML-Serverless
+ 1145  ll
+ 1146  cd keras-code
+ 1147  ll
+ 1148  conda env list 
+ 1149  conda activate keras-dev
+ 1150  pwd
+ 1151  cd /Users/debnsuma/AWS/code/ML-Serverless/keras-code
+ 1152  ll
+ 1153  jupyter-notebook
+ 1154  ll
+ 1155  sls create --template aws-python3 --name resnet50
+ 1156  sls plugin install -n serverless-python-requirements@4.2.4
+ 1157  aws configure
+ 1158  aws s3 ls
+ 1159  conda env list 
+ 1160  conda activate keras-dev
+ 1161  sls invoke local --function resnet50-classify --path event.json
+ 1162  ll /tmp
+ 1163  cd tmp
+ 1164  ll
+ 1165  cd ..
+ 1166  sls invoke local --function resnet50-classify --path event.json
+ 1167  ls -ltra ~/.keras
+ 1168  ls -ltra ~/.keras/models
+ 1169  cp ~/.keras/models/imagenet_class_index.json .
+ 1170  ll
+ 1171  sls invoke local --function resnet50-classify --path event.json
+ 1172  sudo sls package
+ 1173  pip install tensorflow==1.12.0 keras=2.2.4
+ 1174  pip install tensorflow==1.12.0 keras==2.2.4
+ 1175  pip freeze
+ 1176  pip freeze >> requirements.txt
+ 1177  sls package 
+ 1178  sudo sls package 
+ 1179  pip freeze >> requirements.txt
+ 1180  sudo sls package 
+ 1181  pip3 install awscli --upgrade --user
+ 1182  sudo sls package 
+ 1183  pip3 uninstall botocore
+ 1184  pip3 uninstall boto3
+ 1185  pip3 install botocore
+ 1186  pip3 install boto3
+ 1187  sudo sls package 
+ 1188  pip3 uninstall botocore
+ 1189  pip3 install botocore==1.15.5
+ 1190  python
+ 1191  sudo sls package 
+ 1192  conda deactivate keras-dev
+ 1193  conda deactivate 
+ 1194  pip3 install boto3
+ 1195  pip instal boto3
+ 1196  pip install boto3
+ 1197  sudo sls package 
+ 1198  pip install botocore==1.15.5
+ 1199  sudo sls package 
+ 1200  exit
+ 1201  cd aws
+ 1202  cd code
+ 1203  cd ML-Serverless
+ 1204  cd
+ 1205  cd -
+ 1206  cd keras-code
+ 1207  conda env lsiyt
+ 1208  conda env list
+ 1209  conda remove /Users/debnsuma/opt/anaconda3/envs/keras-dev
+ 1210  conda env create keras-dev
+ 1211  conda create -n keras-deploy python=3.6
+ 1212  conda activate keras-deploy
+ 1213  ll
+ 1214  pip install tensorflow==1.12.0 keras==2.2.4
+ 1215  pip freeze >> requirements.txt
+ 1216  cat requirements.txt
+ 1217  pip freeze > requirements.txt
+ 1218  cat requirements.txt
+ 1219  sudo sls package 
+ 1220  ls -ltra 
+ 1221  sls deploy
+ 1222  aws s3 ls
+ 1223  cd ..
+ 1224  cd hello-world
+ 1225  sls deploy
+ 1226  cd -
+ 1227  cd keras-code
+ 1228  ll
+ 1229  sls deploy
+ 1230  ll /Users/debnsuma/AWS/code/ML-Serverless/keras-code/.serverless
+ 1231  rm -rf /Users/debnsuma/AWS/code/ML-Serverless/keras-code/.serverless
+ 1232  rm -rf /Users/debnsuma/AWS/code/ML-Serverless/keras-code/.serverless/*
+ 1233  sudo rm -rf /Users/debnsuma/AWS/code/ML-Serverless/keras-code/.serverless/*
+ 1234  sls deploy
+ 1235  aws s3 ls
+ 1236  aws --version
+ 1237  cd aws
+ 1238  ll
+ 1239  cd work
+ 1240  ll
+ 1241  cd ,,
+ 1242  cd ..
+ 1243  ll
+ 1244  cd ..
+ 1245  ll
+ 1246  cd IIT_J_PG
+ 1247  ll
+ 1248  cd ..
+ 1249  ll
+ 1250  df -h
+ 1251  cd aws
+ 1252  ll
+ 1253  mkdir study 
+ 1254  cd study
+ 1255  git clone https://github.com/acantril/aws-sa-associate-saac02.git
+ 1256  sudo cp /Library/Application\ Support/Amazon/ACME\ Updates.app/Contents/Library/LaunchServices/com.amazon.acme.helper.updates /Library/PrivilegedHelperTools/
+ 1257  cd aws
+ 1258  cd udemy-dl
+ 1259  git pull
+ 1260  ll
+ 1261  python udemy-dl.py
+ 1262  python3 udemy-dl.py
+ 1263  pip3.7 install unidecode
+ 1264  python3 udemy-dl.py
+ 1265  python3 udemy-dl.py https://www.udemy.com/course/linear-algebra-course/learn/lecture
+ 1266  cd ~
+ 1267  aws ec2 attach-internet-gateway --vpc-id "vpc-07b2e10c367a90f23" --internet-gateway-id "igw-0591063cf87786264" --region us-east-1
+ 1268  ssh -i "demo.pem" ec2-user@ec2-3-83-52-170.compute-1.amazonaws.com\n
+ 1269  cd Downloads
+ 1270  ^[[200~ssh -i "demo.pem" ec2-user@ec2-3-83-52-170.compute-1.amazonaws.com
+ 1271  ~ssh -i "demo.pem" ec2-user@ec2-3-83-52-170.compute-1.amazonaws.com\n
+ 1272  ssh -i "demo.pem" ec2-user@ec2-3-83-52-170.compute-1.amazonaws.com
+ 1273  jupyter-notebook
+ 1274  cd ..
+ 1275  cd aws
+ 1276  ll
+ 1277  cd udemy-dl
+ 1278  ll
+ 1279  rm -rf linear-algebra-course
+ 1280  python3 udemy-dl.py https://www.udemy.com/course/linear-algebra-theory-and-implementation/learn/lecture/
+ 1281  python udemy-dl.py --help
+ 1282  python3 udemy-dl.py https://www.udemy.com/course/linear-algebra-theory-and-implementation/learn/lecture/ --chapter-start 131
+ 1283  python3 udemy-dl.py https://www.udemy.com/course/linear-algebra-theory-and-implementation/learn/lecture/ --chapter-start 11
+ 1284  cd ~/Downloads
+ 1285  ssh -A -i "demo.pem" ec2-user@ec2-107-23-45-114.compute-1.amazonaws.com\n
+ 1286  chmod 400 demo.pem\n
+ 1287  ssh -A -i "demo.pem" ec2-user@ec2-107-23-45-114.compute-1.amazonaws.com\n
+ 1288  ssh -A -i "demo.pem" ec2-user@ec2-107-23-45-114.compute-1.amazonaws.com
+ 1289  ssh -i "demo.pem" ec2-user@10.16.96.196\n
+ 1290  ssh -A -i "demo.pem" ec2-user@ec2-107-23-45-114.compute-1.amazonaws.com
+ 1291  cd ~
+ 1292  cd aws
+ 1293  ll
+ 1294  cd study
+ 1295  ll
+ 1296  cd aws-sa-associate-saac02
+ 1297  ll
+ 1298  git pull
+ 1299  pwd
+ 1300  ll
+ 1301  code .
+ 1302  cd ~/Downloads
+ 1303  ssh -i "demo.pem" ec2-user@ec2-54-152-6-245.compute-1.amazonaws.com\n
+ 1304  ssh -A -i "demo.pem" ec2-user@ec2-54-152-6-245.compute-1.amazonaws.com\n
+ 1305  cd Downloads
+ 1306  ssh -A -i "demo.pem" ec2-user@ec2-54-152-6-245.compute-1.amazonaws.com\n
+ 1307  ls -ltra demo.pem
+ 1308  cd ..
+ 1309  jupyter-notebook
+ 1310  cd code
+ 1311  cd aws
+ 1312  ll
+ 1313  cd ..
+ 1314  cd IIT_J_PG
+ 1315  ll
+ 1316  rm -rf Maths_Assignment_1.ipynb
+ 1317  mkdir code
+ 1318  cd code
+ 1319  ll
+ 1320  mkdir ML
+ 1321  mkdir AI
+ 1322  mkdir MATHS
+ 1323  mv ~/Maths_Playground.ipynb MATHS
+ 1324  jupyter-notebook
+ 1325  pip3.7 install utilities
+ 1326  python
+ 1327  pip3.7 install python-utilities
+ 1328  python
+ 1329  ll
+ 1330  cd IIT_J_PG
+ 1331  ll
+ 1332  cd code
+ 1333  ll
+ 1334  cd ML
+ 1335  ll
+ 1336  code .
+ 1337  cd ..
+ 1338  ll
+ 1339  cd ..
+ 1340  llcd code
+ 1341  cd AWS/code
+ 1342  ll
+ 1343  cd ML-Serverless
+ 1344  ll
+ 1345  cd scikit-code
+ 1346  ll
+ 1347  jupyter
+ 1348  jupyter-n
+ 1349  jupyter-notebook
+ 1350  cd aws
+ 1351  cd code
+ 1352  jupyter-notebook
+ 1353  ll
+ 1354  cd IIT_J_PG
+ 1355  ll
+ 1356  cd code
+ 1357  ll
+ 1358  cd ML
+ 1359  ll
+ 1360  rm -rf 5*
+ 1361  ll
+ 1362  rm -rf utilities.py
+ 1363  jupyter-notebook
+ 1364  conda install python-graphviz\n\n
+ 1365  jupyter-notebook
+ 1366  exit
+ 1367  cd IIT_J_PG
+ 1368  cd code
+ 1369  cd ML
+ 1370  ll
+ 1371  jupyter-notebook
+ 1372  jupyter notebook
+ 1373  pip uninstall attr
+ 1374  pip3.7 unistall attr
+ 1375  pip3.7 uninstall attr
+ 1376  conda uninstall attr
+ 1377  conda install attr
+ 1378  pip3.7 uninstall attrs
+ 1379  pip3.7 install attrs
+ 1380  conda install attrs
+ 1381  jupyter-notebook
+ 1382  cd ~
+ 1383  ls -ltra 
+ 1384  conda install anaconda-clean\n
+ 1385  anaconda-clean --yes\n
+ 1386  rm -rf  anaconda3
+ 1387  jupyter-notebook
+ 1388  whereis jupyter-notebook
+ 1389  conda env list
+ 1390  conda activate /Users/debnsuma/opt/anaconda3/envs/scikit-dev
+ 1391  jupyter-notebook
+ 1392  rm -rf /opt/anaconda3
+ 1393  sudo rm -rf /opt/anaconda3
+ 1394  jupyter-notebook
+ 1395  cd /opt
+ 1396  ll
+ 1397  ll /Users/debnsuma/opt/anaconda3/envs/scikit-dev/lib/python3.6/site-packages/notebook/notebookapp.py
+ 1398  ll /Users/debnsuma/opt/anaconda3
+ 1399  sudo rm -rf  /Users/debnsuma/opt/anaconda3
+ 1400  jupyter-notebook
+ 1401  exit
+ 1402  exi
+ 1403  exit
+ 1404  ll
+ 1405  ls -ltra
+ 1406  vim .bash_profile
+ 1407  vim .zshrc
+ 1408  /Users/debnsuma/.anaconda/navigator/a.tool ; exit;
+ 1409  code .bash_profile
+ 1410  code .zshrc
+ 1411  code .bash_profile
+ 1412  source .zshrc
+ 1413  ll opt/
+ 1414  ll
+ 1415  cd opt
+ 1416  ll
+ 1417  ls -ltr ~/opt
+ 1418  history
+ 1419  history }grep rm
+ 1420  history | grep rm
+ 1421  cd /opt
+ 1422  ll
+ 1423  cd ~
+ 1424  pwd
+ 1425  /opt/anaconda3/bin/jupyter-notebook
+ 1426  pwd
+ 1427  /opt/anaconda3/bin/jupyter-notebook
+ 1428  vim .zshrc
+ 1429  source .zshrc
+ 1430  grep -R “/Anaconda3” ~\n
+ 1431  export PATH=/Users/debnsuma/opt/anaconda3/bin:$PATH"
+ 1432  export PATH="/Users/debnsuma/opt/anaconda3/bin:$PATH"
+ 1433  vim ~/.bash_profile
+ 1434  source ~/.bash_profile
+ 1435  jupyter-notebook
+ 1436  exit
+ 1437  /Users/debnsuma/opt/anaconda3/etc/profile.d/conda.sh
+ 1438  ll /Users/debnsuma/opt/anaconda3/etc/profile.d/conda.sh
+ 1439  ll /Users/debnsuma/opt
+ 1440  ll /opt
+ 1441  pwd
+ 1442  ll /opt
+ 1443  ll /Users/debnsuma/opt
+ 1444  /anaconda3/bin/jupyter_mac.command ; exit;
+ 1445  exit
+ 1446  jupyter-notebook
+ 1447  cd IIT_J_PG
+ 1448  cd code
+ 1449  ll
+ 1450  cd ML
+ 1451  jupyter-notebook
+ 1452  conda install graphviz
+ 1453  pip install graphviz
+ 1454  jupyter-notebook
+ 1455  ll
+ 1456  cd AWS
+ 1457  cd udemy-dl
+ 1458  git pull
+ 1459  python3 udemy-dl.py https://www.udemy.com/course-dashboard-redirect/\?course_id\=2511476
+ 1460  conda install unidecode
+ 1461  python3 udemy-dl.py https://www.udemy.com/course-dashboard-redirect/\?course_id\=2511476
+ 1462  python3 udemy-dl.py https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/learn/lecture/16451328\#overview
+ 1463  cd IIT_J_PG
+ 1464  cd ll
+ 1465  ll
+ 1466  cd code
+ 1467  ll
+ 1468  cd ML
+ 1469  ll
+ 1470  jupyter-notebook
+ 1471  cd AWS/code
+ 1472  cd ..
+ 1473  cd udemy-dl
+ 1474  ll
+ 1475  rm -rf linear-algebra-theory-and-implementation
+ 1476  cd complete-machine-learning-and-data-science-zero-to-mastery
+ 1477  ll
+ 1478  jupyter-notebook
+ 1479  cd ..
+ 1480  cd ~/IIT_J_PG
+ 1481  ll
+ 1482  git clone https://github.com/mrdbourke/zero-to-mastery-ml.git
+ 1483  jupyter-notebook
+ 1484  python3 udemy-dl.py https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/learn/lecture/16451328\#overview
+ 1485  cd IIT_J_PG
+ 1486  ll
+ 1487  cd code
+ 1488  cd ML
+ 1489  ll
+ 1490  jupyter-nbconvert ML_Assingment_1-Main-Q2.ipynb
+ 1491  jupyter-nbconvert --help
+ 1492  jupyter-nbconvert ML_Assingment_1-Main-Q2.ipynb --to pdf
+ 1493  brew install inkscape
+ 1494  cd IIT_J_PG
+ 1495  cd code/ML
+ 1496  ll
+ 1497  open ML_Assingment_1-Main-Q2.html
+ 1498  brew cask install inkscape
+ 1499  jupyter-nbconvert ML_Assingment_1-Main-Q2.ipynb --to pdf
+ 1500  ll
+ 1501  rm -rf ML_Assingment_1-Main-Q2.html
+ 1502  jupyter-notebook
+ 1503  code .
+ 1504  ll
+ 1505  python
+ 1506  python3 MT19AIE321_Q2.py iris.data
+ 1507  python3 MT19AIE321_Q2.py /Users/debnsuma/IIT_J_PG/code/ML/iris.data
+ 1508  python3 MT19AIE321_Q2.py 
+ 1509  source /Users/debnsuma/opt/anaconda3/bin/activate
+ 1510  conda activate base
+ 1511  /Users/debnsuma/opt/anaconda3/bin/python /Users/debnsuma/IIT_J_PG/code/ML/MT19AIE321_Q2.py
+ 1512  python MT19AIE321_Q2.py adada
+ 1513  python MT19AIE321_Q2.py iris.data
+ 1514  python MT19AIE321_Q2.py ~/iris.data
+ 1515  python MT19AIE321_Q2.py ~/IIT_J_PG/code/ML/iris.data
+ 1516  python3 MT19AIE321_Q2.py iris.data
+ 1517  ll
+ 1518  python3 MT19AIE321_Q2.py iris.data
+ 1519  ll
+ 1520  python3 MT19AIE321_Q2.py iris.data
+ 1521  ll
+ 1522  date
+ 1523  python3 MT19AIE321_Q2.py iris.data
+ 1524  ll
+ 1525  python
+ 1526  python3 MT19AIE321_Q2.py iris.data
+ 1527  ll
+ 1528  ll *.png
+ 1529  rm -rf  *.png
+ 1530  rm -rf  *.pdf
+ 1531  python3 MT19AIE321_Q2.py iris.data
+ 1532  ll
+ 1533  rm -rf bezdekIris.data
+ 1534  ll
+ 1535  cat Index
+ 1536  rm -rf Index
+ 1537  ll
+ 1538  python3 MT19AIE321_Q2.py iris.data
+ 1539  pwd
+ 1540  ll
+ 1541  jupyter-notebook
+ 1542  cd ~/Downloads
+ 1543  jupyter-notebook
+ 1544  conda install -c anaconda jedi
+ 1545  jupyter-notebook
+ 1546  cd ~/IIT_J_PG
+ 1547  ll
+ 1548  cd code
+ 1549  ll
+ 1550  cd ML
+ 1551  ll
+ 1552  code
+ 1553  ll
+ 1554  python3 MT19AIE321_Q1.py wifi_localization.txt
+ 1555  python3 test.py
+ 1556  python3 test.py iris.data
+ 1557  ll
+ 1558  python test.py wifi_localization.txt
+ 1559  mv test.py MT19AIE321_Q1.py
+ 1560  python MT19AIE321_Q1.py wifi_localization.txt
+ 1561  mkdir Q1
+ 1562  mkdir Q2 
+ 1563  mv MT19AIE321_Q1.py Q1
+ 1564  mv MT19AIE321_Q2.py Q2
+ 1565  ll
+ 1566  mv Q2_CMD_Output.yml Q2
+ 1567  rm -rf *.png
+ 1568  ll
+ 1569  mv ML_Assingment_1-Main-Q2.ipynb Q2
+ 1570  ll
+ 1571  cd Q1
+ 1572  ll
+ 1573  cd ..
+ 1574  mv iris.data Q2
+ 1575  mv wifi_localization.txt Q1
+ 1576  cd Q1
+ 1577  ll
+ 1578  python MT19AIE321_Q1.py wifi_localization.txt
+ 1579  python MT19AIE321_Q1.py wifi_localization.txt | tee -a Q1_CMD_Output.yml
+ 1580  ll
+ 1581  less Q1_CMD_Output.yml
+ 1582  cd ..
+ 1583  Q1
+ 1584  ll
+ 1585  cd ..
+ 1586  cd Q2
+ 1587  ll
+ 1588  python MT19AIE321_Q2.py iris.data | tee -a Q2_CMD_Output.yml
+ 1589  tee --help
+ 1590  tee -h
+ 1591  tee
+ 1592  rm -rf Q2_CMD_Output.yml; python MT19AIE321_Q2.py iris.data | tee -a Q2_CMD_Output.yml
+ 1593  cd ..
+ 1594  cd Q1
+ 1595  rm -rf Q1_CMD_Output.yml; python MT19AIE321_Q1.py wifi_localization.txt | tee -a Q1_CMD_Output.yml
+ 1596  cd ..
+ 1597  code .
+ 1598  cd Q1
+ 1599  ll
+ 1600  rm -rf Q1_CMD_Output.yml; python MT19AIE321_Q1.py wifi_localization.txt | tee -a Q1_CMD_Output.yml
+ 1601  cd ..
+ 1602  cd Q2 
+ 1603  rm -rf Q2_CMD_Output.yml; python MT19AIE321_Q2.py iris.data | tee -a Q2_CMD_Output.yml
+ 1604  cd ..
+ 1605  rm -rf Q1_CMD_Output.yml; python MT19AIE321_Q1.py wifi_localization.txt | tee -a Q1_CMD_Output.yml
+ 1606  cd ..
+ 1607  echo "# iitj_aimt2020_ml1" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit remote add origin https://github.com/debnsuma/iitj_aimt2020_ml1.git\ngit push -u origin master\n
+ 1608  git add .
+ 1609  git commit -m "first commit"
+ 1610  git push -u origin master
+ 1611  git add .
+ 1612  git commit -m "first commit"
+ 1613  ll
+ 1614  wget https://raw.githubusercontent.com/debnsuma/iitj_aimt2020_ml1/master/Q1/wifi_localization.txt
+ 1615  ll
+ 1616  cd ..
+ 1617  cd ML
+ 1618  ll
+ 1619  cd Q1
+ 1620  ll
+ 1621  python MT19AIE321_Q1.py wifi_localization.txt
+ 1622  ll
+ 1623  cd ..
+ 1624  cd Q2
+ 1625  ll
+ 1626  python MT19AIE321_Q2.py iris.data
+ 1627  ll
+ 1628  cd ..
+ 1629  ll
+ 1630  rm -rf MT19AIE321_PA1
+ 1631  rm -rf MT19AIE321_PA1.zip
+ 1632  git add .
+ 1633  git push
+ 1634  git commit -m "added the data set"
+ 1635  git push
+ 1636  git status
+ 1637  cd ..
+ 1638  ll
+ 1639  cd AI
+ 1640  echo "# iitj_aimt2020_ai1" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit remote add origin https://github.com/debnsuma/iitj_aimt2020_ai1.git\ngit push -u origin master\n
+ 1641  git status
+ 1642  ll
+ 1643  cd ..
+ 1644  cd ML
+ 1645  ll
+ 1646  cd ..
+ 1647  ll
+ 1648  cd AI
+ 1649  ll
+ 1650  vim .git/config
+ 1651  pwd
+ 1652  cd ..
+ 1653  ll
+ 1654  mv AI/Artificial-Intelligence-with-Python-Second-Edition-master .
+ 1655  ll
+ 1656  cd AI
+ 1657  ll
+ 1658  git status
+ 1659  vim .DS_Store
+ 1660  rm -rf .DS_Store
+ 1661  ll
+ 1662  git status
+ 1663  cd ..
+ 1664  cd ML
+ 1665  cd Q2
+ 1666  ll
+ 1667  code .
+ 1668  jupyter-notebook
+ 1669  ll
+ 1670  cat iris.data
+ 1671  ll
+ 1672  rm -rf Untitled*
+ 1673  rm -rf roc1.png
+ 1674  rm -rf roc2.png
+ 1675  ll
+ 1676  git status
+ 1677  git pull
+ 1678  ll
+ 1679  cd Q1
+ 1680  ll
+ 1681  cd ..
+ 1682  cd Q2
+ 1683  jupyter-notebook
+ 1684  git add .
+ 1685  git commit -m "Q2 added"
+ 1686  git push
+ 1687  git status
+ 1688  cd ~
+ 1689  pwd
+ 1690  cd AWS
+ 1691  cd code
+ 1692  ll
+ 1693  mkdir "CenturionUniversityWebinar2020"
+ 1694  rm -rf CenturionUniversityWebinar2020
+ 1695  mkdir Serverless-Photo-Thumbnail-Demo
+ 1696  pip install chalice
+ 1697  exit
+ 1698  chalice --help
+ 1699  cd aws
+ 1700  cd code
+ 1701  ll
+ 1702  cd Serverless-Photo-Thumbnail-Demo
+ 1703  ll
+ 1704  cd ..
+ 1705  rm 0rf Serverless-Photo-Thumbnail-Demo
+ 1706  rm -rf Serverless-Photo-Thumbnail-Demo
+ 1707  ll
+ 1708  mkdir Serverless-Demo
+ 1709  cd Serverless-Demo
+ 1710  ll
+ 1711  chalice new-project
+ 1712  ll
+ 1713  cd demo1
+ 1714  ll
+ 1715  vim app.py
+ 1716  cd ..
+ 1717  rm -rf demo1
+ 1718  ll
+ 1719  cp -r ~/Downloads/aws-python-master/ .
+ 1720  ll
+ 1721  ¬
+ 1722  code .
+ 1723  mkdir hello-world
+ 1724  ll
+ 1725  cd hello-world
+ 1726  ll
+ 1727  zip -r app.zip app.py
+ 1728  ll
+ 1729  aws iam create-role \\n    --role-name MyApp \\n    --assume-role-policy-document '{\n    "Version": "2012-10-17",\n    "Statement": [\n        {\n            "Effect": "Allow",\n            "Principal": {\n                "Service": "lambda.amazonaws.com"\n            },\n            "Action": "sts:AssumeRole"\n        }\n    ]\n}'\n
+ 1730  aws iam create-role \\n    --role-name myLambdaExecutionRole \\n    --assume-role-policy-document '{\n    "Version": "2012-10-17",\n    "Statement": [\n        {\n            "Effect": "Allow",\n            "Principal": {\n                "Service": "lambda.amazonaws.com"\n            },\n            "Action": "sts:AssumeRole"\n        }\n    ]\n}'
+ 1731  aws iam 
+ 1732  aws iam help
+ 1733  aws iam getrole myLambdaExecutionRole
+ 1734  aws iam get-role myLambdaExecutionRole
+ 1735  aws iam get-role 
+ 1736  aws iam get-role help
+ 1737  aws iam get-role --role-name myLambdaExecutionRole
+ 1738  aws lambda create-function \\n    --function-name hello \\n    --handler app.handler \\n    --runtime python3.6 \\n    --role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n    --zip "fileb://./app.zip"
+ 1739  echo $SHELL
+ 1740  which aws_completer
+ 1741  ls /usr/local/aws/bin
+ 1742  find / -name aws_completer
+ 1743  vim ~/.bash_profile
+ 1744  source ~/.bash_profile
+ 1745  cat ~/.bash_profile
+ 1746  vim ~/.zshrc
+ 1747  exit
+ 1748  cd aws
+ 1749  cd code
+ 1750  cd Serverless-Demo
+ 1751  ll
+ 1752  whereis aws
+ 1753  which aws
+ 1754  ource /usr/local/aws/bin/aws_zsh_completer.sh
+ 1755  find -name "aws_zsh*" \n
+ 1756  cd /
+ 1757  find -name "aws_zsh*" \n
+ 1758  find -na"aws_zsh*" \n
+ 1759  find -n "aws_zsh*" \n
+ 1760  find -n "aws_zsh" \n
+ 1761  cd -
+ 1762  git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+ 1763  code ~/.zshrc
+ 1764  source ~/.zshrc
+ 1765  exit
+ 1766  code ~/.zshrc
+ 1767  ll ~/.oh-my-zsh
+ 1768  ll ~/.oh-my-zsh/plugins
+ 1769  ll ~/.oh-my-zsh/plugins/aws
+ 1770  ll /usr/local/aws/bin/aws_completer
+ 1771  which aws_completer
+ 1772  vim ~/.zshrc
+ 1773  echo $shell
+ 1774  echo $SHELL
+ 1775  which aws_completer
+ 1776  source /usr/local/bin/aws_completer
+ 1777  source /usr/local/bin/aws_zsh_completer.sh\n\n
+ 1778  source /usr/local/bin/aws_completer\n\n
+ 1779  complete -C aws_completer aws\n
+ 1780  #complete -C aws_completer aws\n
+ 1781  exit
+ 1782  ¬
+ 1783  cd aws
+ 1784  cd code
+ 1785  cd Serverless-Demo
+ 1786  ll
+ 1787  cd hello-world
+ 1788  ll
+ 1789  aws lambda invoke --function-name hello
+ 1790  aws lambda invoke --function-name hello output
+ 1791  cat output
+ 1792  ll
+ 1793  python
+ 1794  zip -r app.zip app.py
+ 1795  ll
+ 1796  aws lambda update-function-code --function-name hello --zip-file "fileb://.app.zip"
+ 1797  ll
+ 1798  aws lambda update-function-code --function-name hello --zip-file "fileb://.app.zip"
+ 1799  aws lambda list-functions
+ 1800  aws lambda list-aliases
+ 1801  ll
+ 1802  aws lambda update-function-code --function-name hello --zip "fileb://.app.zip"
+ 1803  history 
+ 1804  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 1805  history 
+ 1806  aws lambda update-function-code --function-name hello --zip "fileb://.app.zip"
+ 1807  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 1808  zip -r app.zip app.py
+ 1809  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 1810  aws lambda invoke --function-name hello --payload ‘{"name": "suman"}' output \n
+ 1811  aws lambda invoke --function-name hello --payload ‘{"name": "suman"}" output \n
+ 1812  aws lambda invoke --function-name hello --payload "{"name": "suman"}" output \n
+ 1813  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output \n
+ 1814  python
+ 1815  zip -r app.zip app.py
+ 1816  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 1817  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output \n
+ 1818  python
+ 1819  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output \n
+ 1820  aws lambda invoke --function-name hello --payload '{"name": "suman"}' response.json\n
+ 1821  aws lambda invoke --function-name hello --payload '{"name": "suman"}' --invocation-type Event response.json\n
+ 1822  aws --version
+ 1823  $(echo '{ "foo": "bar" }' | base64 -w 0 )
+ 1824  aws lambda invoke --function-name hello --payload payload.json output \n
+ 1825  aws lambda invoke --function-name hello --payload file://payload.json output \n
+ 1826  aws lambda invoke --function-name hello --payload 'eyJuYW1lIjogInN1bWFuIn0='' --invocation-type Event response.json\n\n\n\n\n
+ 1827  aws lambda invoke --function-name hello --payload 'eyJuYW1lIjogInN1bWFuIn0=' --invocation-type Event response.json\n\n\n\n\n
+ 1828  cat output
+ 1829  aws lambda invoke --function-name hello --payload 'eyJuYW1lIjogInN1bWFuIn0='' output\n\n\n\n\n
+ 1830  aws lambda invoke --function-name hello --payload 'eyJuYW1lIjogInN1bWFuIn0=' output\n\n\n\n\n
+ 1831  cat output
+ 1832  $(echo '{ "foo": "bar" }' | base64 -w 0 )
+ 1833  aws lambda invoke --function-name hello --payload '{"name": "suman"}' --invocation-type Event response.json\n
+ 1834  aws lambda invoke --function-name hello --payload '{"name": "suman"}' --invocation-type output\n
+ 1835  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output\n
+ 1836  echo '{"name": "suman"}'
+ 1837  echo '{"name": "suman"}' | base64
+ 1838  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output\n
+ 1839  aws lambda invoke --function-name hello --payload $(echo '{"name": "suman"}' | base64) output\n
+ 1840  vim ~/.aws/config
+ 1841  source ~/.aws/config
+ 1842  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output\n
+ 1843  exit
+ 1844  cd AWS/code
+ 1845  ll
+ 1846  cd Serverless-Demo
+ 1847  ll
+ 1848  cd hello-world
+ 1849  ll
+ 1850  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output\n
+ 1851  cat output
+ 1852  pwd
+ 1853  ll
+ 1854  aws lambda invoke --function-name hello --payload response.json  output\n
+ 1855  aws lambda invoke --function-name hello --payload fileb://payload.json  output\n
+ 1856  cat output
+ 1857  ll
+ 1858  cd ..
+ 1859  ll
+ 1860  l
+ 1861  ll
+ 1862  cd lambda_demo
+ 1863  ll
+ 1864  cd ..
+ 1865  ll
+ 1866  cd -
+ 1867  cd ~
+ 1868  cd aws
+ 1869  cd code
+ 1870  ll
+ 1871  cd Serverless-Demo
+ 1872  cd ..
+ 1873  cd AWS
+ 1874  cd code
+ 1875  ll
+ 1876  cd Serverless-Demo
+ 1877  ll
+ 1878  rm -rf video-analyzer
+ 1879  ll
+ 1880  rm -rf chalice_demo
+ 1881  chalice new-project hello-world-2
+ 1882  cd hello-world-2
+ 1883  chalice deploy
+ 1884  curl https://smpylv9jvl.execute-api.us-east-1.amazonaws.com/api/
+ 1885  cd ..
+ 1886  ll
+ 1887  chalice new-project chalice_image_thumbnails-2
+ 1888  cd chalice_image_thumbnails-2
+ 1889  ll
+ 1890  cat requirements.txt
+ 1891  chalice deploy
+ 1892  conda env list 
+ 1893  pip install -r requirements.txt
+ 1894  chalice deploy
+ 1895  ll
+ 1896  cd ..
+ 1897  ll
+ 1898  cd ..
+ 1899  cd Serverless-Demo
+ 1900  ll
+ 1901  ll hello-world-2
+ 1902  ll hello-world
+ 1903  pwd
+ 1904  cd ..
+ 1905  git clone https://github.com/debnsuma/Serverless-Demo-Chalice.git
+ 1906  cd Serverless-Demo-Chalice
+ 1907  ll
+ 1908  mkdir hello-world
+ 1909  cd hello-world
+ 1910  vim app.py
+ 1911  zip -r app.zip app.py
+ 1912  aws lambda create-function --function-name hello-world-cli --handler app.handler --runtime python3.8 --role arn:aws:iam::507922848584:role/myLambdaExecutionRole --zip "fileb://./app.zip"
+ 1913  aws lambda list-functions
+ 1914  aws lambda invoke --function-name hello-world-cli 
+ 1915  aws lambda invoke --function-name hello-world-cli output123
+ 1916  cat output123
+ 1917  aws lambda invoke --function-name hello-world-cli output
+ 1918  cat output
+ 1919  ll
+ 1920  rm -rf output123
+ 1921  vim app.py
+ 1922  #aws lambda update-function-code --function-name hello-world-cli 
+ 1923  zip -r app.zip app.py
+ 1924  aws lambda update-function-code --function-name hello-world-cli --zip "fileb://./app.zip"
+ 1925  aws lambda invoke --function-name hello-world-cli output
+ 1926  aws lambda invoke --function-name hello-world-cli --playload '{"name": "suman"}' output
+ 1927  aws lambda invoke --function-name hello-world-cli --playload '{"name": "suman"}' 
+ 1928  aws lambda invoke --function-name hello-world-cli --payload '{"name": "suman"}' output
+ 1929  cat output
+ 1930  aws lambda invoke --function-name hello-world-cli --payload '{"name": "ravi", "class":2020}' output
+ 1931  cat output
+ 1932  ll
+ 1933  vim payload.json
+ 1934  aws lambda invoke --function-name hello-world-cli --payload fileb://payload.json output
+ 1935  cat output
+ 1936  pwd
+ 1937  ll
+ 1938  cd ..
+ 1939  ll
+ 1940  mll
+ 1941  ll
+ 1942  chalice new-project hello-world-2
+ 1943  ll
+ 1944  cd hello-world-2
+ 1945  ll
+ 1946  vim app.py
+ 1947  code app.py
+ 1948  vim app.py
+ 1949  ll
+ 1950  cat requirements.txt
+ 1951  chalice deploy
+ 1952  chalice --help
+ 1953  chalice invoke --help
+ 1954  chalice invoke -n hello-world-2-dev-hello_world 
+ 1955  chalice invoke -n hello-world
+ 1956  vim app.py
+ 1957  chalice invoke -n hello_world
+ 1958  chalice invoke -n hello_world "suman"
+ 1959  chalice invoke -n hello_world
+ 1960  vim app.py
+ 1961  chalice deploy
+ 1962  chalice invoke -n hello_world 
+ 1963  chalice invoke -n hello_world name="suman"
+ 1964  chalice invoke -h
+ 1965  chalice invoke ---help
+ 1966  chalice invoke --help
+ 1967  chalice invoke -n hello_world
+ 1968  echo '{"name": "suman"} | chalice invoke -n hello_world
+ 1969  echo '{"name": "suman"}' | chalice invoke -n hello_world
+ 1970  chalice invoke -n hello_world -p '{"name": "suman"}'
+ 1971  vim app.py
+ 1972  code app.py
+ 1973  vim app.py
+ 1974  ll
+ 1975  cd ..
+ 1976  ll
+ 1977  chalice new-project img-thumb
+ 1978  ll
+ 1979  cd img-thumb
+ 1980  ll
+ 1981  vim app.py
+ 1982  ll
+ 1983  vim app.py
+ 1984  vim requirements.txt
+ 1985  pip install -r requirements.txt
+ 1986  chalice deploy
+ 1987  code app.py
+ 1988  chalice deploy
+ 1989  history 
+ 1990  chalice deploy
+ 1991  cd ..
+ 1992  ll
+ 1993  cd ..
+ 1994  cd Serverless-Demo
+ 1995  ll
+ 1996  cd chalice_image_thumbnails-2
+ 1997  ll
+ 1998  chalice --help
+ 1999  chalice delete
+ 2000  chalice deploy
+ 2001  vim app.py
+ 2002  code app.py
+ 2003  chalice delete
+ 2004  cd ..
+ 2005  cd Serverless-Demo-Chalice/
+ 2006  ll
+ 2007  cd img-thumb
+ 2008  chalice deploy
+ 2009  pwd
+ 2010  ll
+ 2011  chalice delete 
+ 2012  ll
+ 2013  cd ..
+ 2014  ll
+ 2015  cd hello-world-2
+ 2016  chalice delete
+ 2017  q
+ 2018  chalice deploy
+ 2019  ll
+ 2020  cat app.py
+ 2021  echo '{"name":"suman debnath"}'
+ 2022  echo '{"name":"suman debnath"}' | chalice invoke hello_world
+ 2023  chalice invoke --help
+ 2024  echo '{"name":"suman debnath"}' | chalice invoke -n hello_world
+ 2025  ll
+ 2026  chalice delete 
+ 2027  ll
+ 2028  cd ..
+ 2029  ll
+ 2030  pwd
+ 2031  git add .
+ 2032  git commit -m "first commit"
+ 2033  git push 
+ 2034  ll
+ 2035  cd ..
+ 2036  ll
+ 2037  cd Serverless-Demo
+ 2038  ll
+ 2039  cd ,,
+ 2040  ll
+ 2041  cd ..
+ 2042  cd Serverless-Demo
+ 2043  cd ..
+ 2044  cd Serverless-Demo-Chalice
+ 2045  ll
+ 2046  code .
+ 2047  cd ..
+ 2048  cd ~
+ 2049  ll
+ 2050  cd AWS
+ 2051  ll
+ 2052  cd work
+ 2053  ll
+ 2054  cd ..
+ 2055  mkdir CU2020
+ 2056  cd CU202 
+ 2057  cd CU2020
+ 2058  aws configure
+ 2059  ll
+ 2060  mkdir hello-world
+ 2061  cd hello-world
+ 2062  ll
+ 2063  vim app.py
+ 2064  zip -r app.zip app.py
+ 2065  ll
+ 2066  aws lambda create-function \\n--function-name hello-world \\n--handler python3.8 \\n--role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n--zip "fileb://./app.zip"
+ 2067  aws lambda create-function \\n--function-name hello-world \\n--runtime python3.8 \\n--role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n--zip "fileb://./app.zip"
+ 2068  aws lambda create-function --function-name func1 --handler app.handler --runtime python3.8 --role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n--zip "fileb://./app.zip"
+ 2069  ll
+ 2070  aws lambda invoke --function-name func1 output
+ 2071  cat output
+ 2072  vim  app.py
+ 2073  #aws lambda update-function-code func1
+ 2074  zip -r app.zip app.py
+ 2075  aws lambda update-function-code func1
+ 2076  aws lambda update-function-code func1 --zip "fileb://./app.zip"
+ 2077  aws lambda update-function-code --function-name func1 --zip "fileb://./app.zip"
+ 2078  aws lambda invoke --function-name hello --playload '{"name": "Rashmi"}' output
+ 2079  aws lambda invoke --function-name hello --payload '{"name": "Rashmi"}' output
+ 2080  aws lambda invoke --function-name func1 --payload '{"name": "Rashmi"}' output
+ 2081  cat output
+ 2082  cd ..
+ 2083  chalice hello-world2
+ 2084  chalice new-project-create hello-world2
+ 2085  chalice new-project hello-world2
+ 2086  cd hello-world2
+ 2087  ll
+ 2088  vim app.py
+ 2089  chalice deploy
+ 2090  chalice invoke -n hello-world2
+ 2091  vim app.py
+ 2092  chalice invoke -n hello-world
+ 2093  vim app.py
+ 2094  chalice invoke -n hello_world
+ 2095  vim app.py
+ 2096  chalice
+ 2097  chalice deploy
+ 2098  chalice invoke -n hello_world
+ 2099  echo '{"name":"Suman"}' | chalice invoke -n hello_world
+ 2100  pwd
+ 2101  cd ..
+ 2102  chalice new-project img_thumb
+ 2103  cd img_thumb
+ 2104  ll
+ 2105  vim app.py
+ 2106  chalice deploy
+ 2107  echo "boto3" > requirements.txt
+ 2108  echo "Pillow" >> requirements.txt
+ 2109  chalice deploy
+ 2110  chalice delete
+ 2111  cd ..
+ 2112  ll
+ 2113  cd hello-world2
+ 2114  ll
+ 2115  chalice delete
+ 2116  cd ..
+ 2117  ll
+ 2118  rm -rf *
+ 2119  ll
+ 2120  cd ..
+ 2121  rm -rf CU2020
+ 2122  cd iit
+ 2123  cd IIT_J_PG
+ 2124  cd code
+ 2125  ll
+ 2126  cd ai
+ 2127  ll
+ 2128  jupyter-notebook
+ 2129  cd aws
+ 2130  cd code
+ 2131  ll
+ 2132  cd Serverless-Demo-Chalice
+ 2133  ll
+ 2134  cp ~/Desktop/tmp/ReadMe_Notes.yml .
+ 2135  code .
+ 2136  history
+ 2137  mkdir CU2020
+ 2138  cd CU2020
+ 2139  mkdir hello-world
+ 2140  cd hello-world
+ 2141  vim app.py
+ 2142  python
+ 2143  ll
+ 2144  zip -r app.zip app.py
+ 2145  ll
+ 2146  aws lambda create-function --function-name hello --handler app.handler --runtime python3.6 --role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n--zip "fileb://./app.zip"
+ 2147  aws lambda --function-name hello output 
+ 2148  aws lambda invoke --function-name hello output 
+ 2149  ll
+ 2150  cat output
+ 2151  vim app.py
+ 2152  zip -r app.zip app.py
+ 2153  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 2154  aws lambda invoke --function-name hello --payload '{"name": "Suman"}' output
+ 2155  cat output
+ 2156  aws lambda invoke --function-name hello --payload '{"name": "Ravi"}' outputt
+ 2157  cat output
+ 2158  ll
+ 2159  cat outputt
+ 2160  aws lambda invoke --function-name hello --payload '{"name": "Rohan"}' outputt
+ 2161  cat outputt
+ 2162  cd ..
+ 2163  mkdir hello-world2
+ 2164  cd hello-world2
+ 2165  ll
+ 2166  cd ..
+ 2167  rm -rf hello-world2
+ 2168  ll
+ 2169  #pip install chalice 
+ 2170  chalice new-project hello-world2
+ 2171  ll
+ 2172  cd hello-world2
+ 2173  ll
+ 2174  vim app.py
+ 2175  cat requirements.txt
+ 2176  chalice deploy 
+ 2177  chalice invoke -n hello-world2
+ 2178  chalice invoke -n hello-world-2
+ 2179  vim app.py
+ 2180  chalice invoke -n hello_world
+ 2181  vim app.py
+ 2182  chalice deploy 
+ 2183  vim app.py
+ 2184  chalice deploy 
+ 2185  echo '{"name": "suman debnath"}'| chalice invoke -n hello_world
+ 2186  cd ..
+ 2187  ll
+ 2188  chalice new-project thumb-img
+ 2189  ll
+ 2190  cd thumb-img
+ 2191  ll
+ 2192  vim app.py
+ 2193  echo "boto3" > requirements.txt
+ 2194  echo "Pillow" >> requirements.txt
+ 2195  cat requirements.txt
+ 2196  pip install -r requirements.txt
+ 2197  chalice deploy 
+ 2198  ll
+ 2199  cd ..
+ 2200  ll
+ 2201  cd thumb-img
+ 2202  chalice delete 
+ 2203  cd ,,
+ 2204  cd ..
+ 2205  cd hello-world2
+ 2206  chalice delete 
+ 2207  ll
+ 2208  cd ..
+ 2209  ll
+ 2210  cd ..
+ 2211  mkdir CU2020-2
+ 2212  cd CU2020-2
+ 2213  mkdir hello-world
+ 2214  cd hello-world
+ 2215  vim app.py
+ 2216  python
+ 2217  ll
+ 2218  zip -r app.zip app.py 
+ 2219  ll
+ 2220  aws lambda create-function --function-name hello --handler app.handler --runtime python3.6 --role arn:aws:iam::507922848584:role/myLambdaExecutionRole -zip "fileb://./app.zip"
+ 2221  aws lambda create-function --function-name hello --handler app.handler --runtime python3.6 --role arn:aws:iam::507922848584:role/myLambdaExecutionRole --zip "fileb://./app.zip"
+ 2222  aws lambda invoke --function-name hello output 
+ 2223  ll
+ 2224  cat output
+ 2225  vim app.py
+ 2226  zip -r app.zip app.py 
+ 2227  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 2228  aws lambda invoke --function-name hello --payload '{"xyz": "suman"}' output
+ 2229  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output
+ 2230  ll
+ 2231  cat output
+ 2232  ll
+ 2233  cd ..
+ 2234  ll
+ 2235  chalice new-project hello-world2
+ 2236  ll
+ 2237  cd hello-world2
+ 2238  ll
+ 2239  vim app.py
+ 2240  chalice deploy 
+ 2241  chalice invoke -n hello_world
+ 2242  chalice invoke -n hello-world-2
+ 2243  chalice invoke -n hello_world
+ 2244  ll
+ 2245  vim app.py
+ 2246  chalice deploy
+ 2247  chalice invoke -n hello_world2
+ 2248  chalice invoke -n hello_world
+ 2249  vim app.py
+ 2250  chalice deploy
+ 2251  vim app.py
+ 2252  chalice deploy
+ 2253  echo '{"name":"suman debnath"}' | chalice invoke -n hello_world
+ 2254  cd ..
+ 2255  ll
+ 2256  chalice new-project img-thumb123
+ 2257  ll
+ 2258  cd img-thumb123
+ 2259  ll
+ 2260  vim app.py
+ 2261  cat requirements.txt
+ 2262  echo "boto3" > requirements.txt
+ 2263  echo "Pillow" >> requirements.txt
+ 2264  cat requirements.txt
+ 2265  pip install -r requirements.txt
+ 2266  chalice deploy
+ 2267  chalice delete
+ 2268  cd ,,
+ 2269  cd ..
+ 2270  cd hello-world2
+ 2271  ll
+ 2272  chalice delete
+ 2273  cd ..
+ 2274  ll
+ 2275  cd ..
+ 2276  rm -rf CU2020*
+ 2277  cd IIT_J_PG
+ 2278  ll
+ 2279  cd code
+ 2280  ll
+ 2281  cd AI
+ 2282  ll
+ 2283  jupyter-notebook
+ 2284  cd ..
+ 2285  cd IIT_J_PG
+ 2286  ll
+ 2287  cd code
+ 2288  ll
+ 2289  cd AI
+ 2290  ll
+ 2291  code .
+ 2292  cd ..
+ 2293  cd ML
+ 2294  ll
+ 2295  cd Q1
+ 2296  ll
+ 2297  cat Q1_CMD_Output.yml
+ 2298  ll
+ 2299  cat MT19AIE321_Q1.py
+ 2300  cd -
+ 2301  ;
+ 2302  cd ../AI
+ 2303  ll
+ 2304  python MT19AIE321_Q1.py
+ 2305  cat ../ML/Q2/MT19AIE321_Q2.py
+ 2306  python MT19AIE321_Q1.py
+ 2307  ll
+ 2308  python Q1_Submission_v1.py
+ 2309  python Q1_Submission_v2.py
+ 2310  python MT19AIE321_Q1.py
+ 2311  python Q1_Submission_v3_nocheck_for_revisiting.py
+ 2312  mv Q1_Submission_v3_nocheck_for_revisiting.py MT19AIE321_Q1.py
+ 2313  ll
+ 2314  rm -rf Q1_Submission_v1.py
+ 2315  rm -rf Q1_Submission_v2.py
+ 2316  ll
+ 2317  python MT19AIE321_Q1.py
+ 2318  ll
+ 2319  git add .
+ 2320  git commit -m "first commit"
+ 2321  git push 
+ 2322  ll
+ 2323  cp ~/Downloads/Programming_Assignment_1.pdf
+ 2324  cp ~/Downloads/Programming_Assignment_1.pdf .
+ 2325  open Programming_Assignment_1.pdf
+ 2326  rm -rf Programming_Assignment_1.pdf
+ 2327  ll
+ 2328  cp ~/Downloads/AI-1\ Programming\ Assignment.pdf .
+ 2329  ll
+ 2330  mkdir Q1
+ 2331  mkdir Q2
+ 2332  cp Final-Programming\ Assignment\ 1* Q1
+ 2333  ll
+ 2334  ll Q1
+ 2335  mv Final-Programming\ Assignment\ 1* Q1
+ 2336  ll
+ 2337  mv astar_* Q1
+ 2338  ll
+ 2339  mv input* Q1
+ 2340  ll
+ 2341  mv MT19AIE321_Q1.py Q1
+ 2342  ll
+ 2343  ll Q1
+ 2344  git add .
+ 2345  git commit -m "added A* algo code"
+ 2346  git push 
+ 2347  top
+ 2348  pwd
+ 2349  ll
+ 2350  git add .
+ 2351  git commit -m "Adding the solution of Q2" 
+ 2352  git push 
+ 2353  git add .
+ 2354  git commit -m "Adding the solution of Q2" 
+ 2355  git push 
+ 2356  cd IIT_J_PG
+ 2357  cd code
+ 2358  ll
+ 2359  cd AI
+ 2360  jupyter-notebook
+ 2361  git status
+ 2362  cd code 
+ 2363  cd aws
+ 2364  cd code
+ 2365  ll
+ 2366  mkdir ML
+ 2367  cd ML
+ 2368  mkdir 0.DecissionTree
+ 2369  cd 0.DecissionTree
+ 2370  mv ~/Downloads/adform.click.2017.01.json .
+ 2371  less adform.click.2017.01.json
+ 2372  ls -ltra 
+ 2373  ls -ltrah 
+ 2374  aws s3 ls
+ 2375  aws s3 cp adform.click.2017.01.json s3://myemrdatastore
+ 2376  jupyter-notebook
+ 2377  cd ~/IIT_J_PG/code/A
+ 2378  cd ~/IIT_J_PG/code/AI
+ 2379  cd Q2
+ 2380  ll
+ 2381  echo 10 | python MT19AIE321_Q2.py
+ 2382  echo 4 | python MT19AIE321_Q2.py
+ 2383  echo 10 | python MT19AIE321_Q2.py
+ 2384  echo 2 | python MT19AIE321_Q2.py
+ 2385  echo 3 | python MT19AIE321_Q2.py
+ 2386  echo 2 | python MT19AIE321_Q2.py
+ 2387  echo 1 | python MT19AIE321_Q2.py
+ 2388  pwd
+ 2389  git add . 
+ 2390  pwd
+ 2391  cd ..
+ 2392  git add . 
+ 2393  git commit -m "added standard list version for Q2"
+ 2394  git push 
+ 2395  cd AWS/bloc
+ 2396  cd AWS/Blogs
+ 2397  ll
+ 2398  cd Artificial_AI_Engineer_Serise
+ 2399  ll
+ 2400  jupyter-notebook 
+ 2401  aws emr terminate-clusters 
+ 2402  aws emr terminate-clusters help
+ 2403  aws emr terminate-clusters terminate-clusters help
+ 2404  aws emr terminate-clusters terminate-clusters 
+ 2405  aws emr terminate-clusters terminate-clusters --cluster-ids j-33CYXOWG5L2NN
+ 2406  aws s3 ls
+ 2407  aws s3 ls | grep emr
+ 2408  cd IIT_J_PG
+ 2409  cd code
+ 2410  ll
+ 2411  cd ai
+ 2412  ll
+ 2413  code
+ 2414  pwd
+ 2415  ll
+ 2416  cd Q1
+ 2417  ll
+ 2418  python MT19AIE321_Q1.py
+ 2419  cat input.txt
+ 2420  python MT19AIE321_Q1.py
+ 2421  cat input.txt
+ 2422  python MT19AIE321_Q1.py
+ 2423  cd ,,
+ 2424  cd ..
+ 2425  cd IIT_J_PG/code
+ 2426  cd Artificial-Intelligence-with-Python-Second-Edition-master/Chapter
+ 2427  cd AI/Q1
+ 2428  ll
+ 2429  jupyter-notebook
+ 2430  source /Users/debnsuma/opt/anaconda3/bin/activate
+ 2431  conda activate base
+ 2432  cat input
+ 2433  cat input.txt
+ 2434  python MT19AIE321_Q1.py
+ 2435  cd ..
+ 2436  cd Q2
+ 2437  jupyter-notebook
+ 2438  cd ,,
+ 2439  cd ..
+ 2440  cd Q2
+ 2441  python MT19AIE321_Q2.py
+ 2442  cd ~
+ 2443  cd aws
+ 2444  cd code
+ 2445  ll
+ 2446  cd AI\ Services
+ 2447  ll
+ 2448  jupyter-notebook
+ 2449  pwd
+ 2450  ll
+ 2451  cd ..
+ 2452  cd Q2
+ 2453  ll
+ 2454  jupyter-notebook
+ 2455  cd IIT_J_PG/code/AI
+ 2456  ll
+ 2457  git add .
+ 2458  git commit -m "Q2 fixed" 
+ 2459  git push
+ 2460  conda 
+ 2461  conda env list 
+ 2462  activate base 
+ 2463  conda env 
+ 2464  pwd
+ 2465  tree
+ 2466  ll
+ 2467  pwd
+ 2468  cd ~
+ 2469  cd Downloads
+ 2470  python Astar.py
+ 2471  cd ~
+ 2472  cd IIT_J_PG
+ 2473  cd code
+ 2474  jupyter-notebook
+ 2475  code .
+ 2476  pwd
+ 2477  jupyter-notebook
+ 2478  cd AI
+ 2479  cd code
+ 2480  ll
+ 2481  cd Q2
+ 2482  python MT19AIE321_Q2.py
+ 2483  pwd
+ 2484  ll
+ 2485  cd ..
+ 2486  ll
+ 2487  git clone https://github.com/debnsuma/aws_ai_101.git
+ 2488  cd aws_ai_101
+ 2489  ll
+ 2490  cd ..
+ 2491  AI\ Services
+ 2492  ll
+ 2493  cp -r * ../aws_ai_101
+ 2494  cd ../aws_ai_101
+ 2495  ll
+ 2496  rm -rf rekognition-image-python-faces.py
+ 2497  ll
+ 2498  git add .
+ 2499  git commit -m "first commit"
+ 2500  git push
+ 2501  git add .
+ 2502  git commit -m "first commit"
+ 2503  git push
+ 2504  ll
+ 2505  ls -ltra 
+ 2506  rm -rf .git
+ 2507  ll
+ 2508  cd ..
+ 2509  git clone https://github.com/debnsuma/aws_ai_101.git
+ 2510  ll
+ 2511  cp -r aws_ai_101_old/* aws_ai_101/
+ 2512  ll aws_ai_101/
+ 2513  rm -rf aws_ai_101_old
+ 2514  cdo aws_ai_101
+ 2515  ll
+ 2516  cd aws_ai_101
+ 2517  git add
+ 2518  git add .
+ 2519  git commit -m "first commit"
+ 2520  git push
+ 2521  ll
+ 2522  jupyter-notebook
+ 2523  cd code
+ 2524  cd AWS
+ 2525  cd code
+ 2526  ll
+ 2527  cd aws_ai_101
+ 2528  git add .
+ 2529  git commit -m "fixed the notebook"
+ 2530  git push
+ 2531  pwd
+ 2532  ll
+ 2533  jupyter-notebook
+ 2534  git add .
+ 2535  git commit -m "fixed translate function"
+ 2536  git push
+ 2537  pwd
+ 2538  ll
+ 2539  pwd
+ 2540  ll
+ 2541  cd IIT_J_PG/code
+ 2542  cd AI/Q1
+ 2543  ll
+ 2544  code .
+ 2545  python MT19AIE321_Q1.py
+ 2546  jupyter-notebook
+ 2547  cd AWS
+ 2548  cd udemy-dl
+ 2549  python udemy-dl.py https://www.udemy.com/course/statistics-probability/learn/
+ 2550  ll
+ 2551  cd statistics-probability
+ 2552  ll
+ 2553  cd 02\ Visualizing\ data
+ 2554  ll
+ 2555  cd ..
+ 2556  python udemy-dl.py https://www.udemy.com/course/statistics-probability/learn/ -u suman.14san@gmail.com =p Sanrad2011
+ 2557  python udemy-dl.py https://www.udemy.com/course/statistics-probability/learn/ -u suman.14san@gmail.com -p Sanrad2011
+ 2558  cd ,,
+ 2559  cd ..
+ 2560  python udemy-dl.py https://www.udemy.com/course/statistics-probability/learn/ -u suman.14san@gmail.com -p Sanrad2011
+ 2561  ll
+ 2562  cd IIT_J_PG
+ 2563  cd code
+ 2564  ll
+ 2565  jupyter-notebook
+ 2566  cd aws
+ 2567  cd ..
+ 2568  cd IIT_J_PG
+ 2569  ll
+ 2570  pwd
+ 2571  ll
+ 2572  cd code
+ 2573  jupyter-notebook
+ 2574  cd IIT_J_PG
+ 2575  jupyter-notebook
+ 2576  cd IIT_J_PG
+ 2577  cd code
+ 2578  ll
+ 2579  cd AI
+ 2580  ll
+ 2581  cd Q2
+ 2582  ll
+ 2583  code MT19AIE321_Q2.py
+ 2584  python MT19AIE321_Q2.py
+ 2585  pwd
+ 2586  cd ..
+ 2587  ll
+ 2588  git add .
+ 2589  git commit -m "fixed q1"
+ 2590  git push
+ 2591  cd ..
+ 2592  cd ~
+ 2593  cd AWS
+ 2594  ll
+ 2595  cd Blogs
+ 2596  ll
+ 2597  cd Artificial_AI_Engineer_Serise
+ 2598  ll
+ 2599  cd 1.\ Decission\ Tree
+ 2600  ll
+ 2601  mkdir code 
+ 2602  cd code
+ 2603  jupyter-notebook
+ 2604  cd AWS/code
+ 2605  ll
+ 2606  cd ..
+ 2607  cd Blogs
+ 2608  ll
+ 2609  cd Artificial_AI_Engineer_Serise
+ 2610  ll
+ 2611  cd 1.\ Decission\ Tree
+ 2612  ll
+ 2613  jupyter-np
+ 2614  jupyter-notebook
+ 2615  cd ~
+ 2616  cd Downloads
+ 2617  jupyter-notebook
+ 2618  ll
+ 2619  cd -
+ 2620  cd AWS
+ 2621  cd Blogs
+ 2622  cd Artificial_AI_Engineer_Serise
+ 2623  cd 1.\ Decission\ Tree
+ 2624  ll
+ 2625  jupyter-notebook
+ 2626  conda install pydotplus
+ 2627  conda install wand
+ 2628  pip install Wand
+ 2629  python
+ 2630  conda install -c conda-forge wand\n
+ 2631  import sklearn
+ 2632  python
+ 2633  wget filename = "wifi_localization.txt"
+ 2634  wget https://archive.ics.uci.edu/ml/machine-learning-databases/00422/wifi_localization.txt
+ 2635  wget https://archive.ics.uci.edu/ml/machine-learning-databases/00422/wifi_localization.txt --no-check-certificate
+ 2636  cd IIT_J_PG
+ 2637  cd code
+ 2638  ll
+ 2639  cd ML
+ 2640  ll
+ 2641  jupyter-notebook
+ 2642  cd Downloads
+ 2643  jupyter-notebook
+ 2644  pwd
+ 2645  cd aws
+ 2646  ll
+ 2647  cd Blogs
+ 2648  ll
+ 2649  cd Artificial_AI_Engineer_Serise
+ 2650  ll
+ 2651  git clone https://github.com/debnsuma/AI-ML-Algo2020.git
+ 2652  cd AI-ML-Algo2020
+ 2653  ll
+ 2654  git add . 
+ 2655  git commit -m "First Commit for DT"
+ 2656  git push 
+ 2657  ll
+ 2658  pwd
+ 2659  ll
+ 2660  cd 01.Decision_Tree
+ 2661  ll
+ 2662  mkdir img
+ 2663  cd img
+ 2664  pwd
+ 2665  ll
+ 2666  git add .
+ 2667  git commit -m "img added"
+ 2668  git push
+ 2669  cd ~
+ 2670  cd aws 
+ 2671  cd code
+ 2672  ll
+ 2673  cd ACD-Pune-2020-ML-Workshop
+ 2674  ll
+ 2675  cd ..
+ 2676  cd ML
+ 2677  ll
+ 2678  cd ..
+ 2679  cd Workshops
+ 2680  ll
+ 2681  cd AWS-ML
+ 2682  ll
+ 2683  cd ml-on-aws-acdpune-feb-2020
+ 2684  ll
+ 2685  code 
+ 2686  code  .
+ 2687  cd ~
+ 2688  cd code
+ 2689  ll
+ 2690  cd ..
+ 2691  cd iit
+ 2692  cd ~
+ 2693  cd IIT_J_PG
+ 2694  cd code
+ 2695  cd AI
+ 2696  ll
+ 2697  cd Q1
+ 2698  ll
+ 2699  jupyter-notebook
+ 2700  cd ..
+ 2701  cd ML
+ 2702  ll
+ 2703  cd A2
+ 2704  ll
+ 2705  jupyter-notebook
+ 2706  cd ,,
+ 2707  cd ..
+ 2708  kk
+ 2709  cd ..
+ 2710  cd -
+ 2711  ll
+ 2712  pwd
+ 2713  jupyter-notebook
+ 2714  ll
+ 2715  jupyter-notebook
+ 2716  cd Downloads
+ 2717  jupyter-notebook
+ 2718  cd -
+ 2719  pwd
+ 2720  cd ..
+ 2721  ll
+ 2722  cd ML
+ 2723  ll
+ 2724  git add .
+ 2725  git commit -m "A2 added"
+ 2726  git push
+ 2727  jupyter-notebook
+ 2728  git add .
+ 2729  git commit -m "A2 added"
+ 2730  git push
+ 2731  jupyter-notebook
+ 2732  git add .
+ 2733  git commit -m "A2 added"
+ 2734  git push
+ 2735  jupyter-notebook
+ 2736  cd IIT_J_PG
+ 2737  ll
+ 2738  cd code
+ 2739  ll
+ 2740  cd M
+ 2741  cd Ml
+ 2742  jupyter-notebook
+ 2743  cd ..
+ 2744  cd aws
+ 2745  ll
+ 2746  cd code
+ 2747  ll
+ 2748  cd Serverless-Demo
+ 2749  l
+ 2750  cd ll
+ 2751  cd ..
+ 2752  cd Serverless-Demo-Chalice
+ 2753  ll
+ 2754  code .
+ 2755  ll
+ 2756  cd ..
+ 2757  ll
+ 2758  mkdir CDEMO 
+ 2759  cd CDEMO
+ 2760  ll
+ 2761  mkdir hello-world 
+ 2762  cd hello-world
+ 2763  vi app.py
+ 2764  ll
+ 2765  zip -r app.zip app.py   
+ 2766  aws lambda create-function \\n    --function-name hello \\n    --handler app.handler \\n    --runtime python3.6 \\n    --role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n    --zip "fileb://./app.zip"
+ 2767  ll
+ 2768  aws lambda invoke --function-name hello output
+ 2769  ll
+ 2770  cat output
+ 2771  aws lambda invoke --function-name hello output --payload '{"name": "suman"}'
+ 2772  cat output
+ 2773  cd ..
+ 2774  ll
+ 2775  chalice new-project hello-world2
+ 2776  cd hello-world2
+ 2777  vim app.py
+ 2778  ll
+ 2779  cat requirements.txt
+ 2780  chalice deploy 
+ 2781  vim app.py
+ 2782  echo '{"name":"suman debnath"}' | chalice invoke -n hello_world2
+ 2783  echo '{"name":"suman debnath"}' | chalice invoke -n hello-world2
+ 2784  vim app.py
+ 2785  echo '{"name":"suman debnath"}' | chalice invoke -n hello_world
+ 2786  cd ,,
+ 2787  cd ..
+ 2788  ll
+ 2789  chalice new-project thumimg
+ 2790  cd thumimg
+ 2791  ll
+ 2792  vim app.py
+ 2793  echo "boto3" > requirements.txt
+ 2794  cat requirements.txt
+ 2795  pip install -r requirements.txt
+ 2796  chalice deploy 
+ 2797  chalice
+ 2798  chalice delete 
+ 2799  cd ..
+ 2800  ll
+ 2801  cd hello-world2
+ 2802  chalice delete
+ 2803  ll
+ 2804  cd ..
+ 2805  ll
+ 2806  rm -rf 
+ 2807  ll
+ 2808  rm -rf *
+ 2809  ll
+ 2810  cd ..
+ 2811  rm -rf CDEMO
+ 2812  ll
+ 2813  vim dry.py
+ 2814  rm -rf dry.py
+ 2815  mkdir hello-world
+ 2816  cd hello-world
+ 2817  vim app.py
+ 2818  zip -r app.py app.py
+ 2819  zip -r app.zip app.py
+ 2820  aws lambda create-function \\n    --function-name hello \\n    --handler app.handler \\n    --runtime python3.6 \\n    --role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n    --zip "fileb://./app.zip"
+ 2821  aws lambda invoke --function-name hello
+ 2822  aws lambda invoke --function-name hello output
+ 2823  cat output
+ 2824  vim app.py
+ 2825  zip -r app.zip app.py
+ 2826  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 2827  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output
+ 2828  cat output
+ 2829  vim app.py
+ 2830  zip -r app.zip app.py
+ 2831  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 2832  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output
+ 2833  vim app.py
+ 2834  zip -r app.zip app.py
+ 2835  aws lambda update-function-code --function-name hello --zip "fileb://./app.zip"
+ 2836  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output
+ 2837  cat output
+ 2838  cd ..
+ 2839  chalice new-project hello-world2
+ 2840  cd hello-world
+ 2841  cd ..
+ 2842  cd hello-world2
+ 2843  ll
+ 2844  vim app.py
+ 2845  chalice deploy
+ 2846  vim app.py
+ 2847  chalice delete
+ 2848  cd ..
+ 2849  chalice new-project thumimg
+ 2850  cd thumimg
+ 2851  ll
+ 2852  echo "Pillow" >> requirements.txt
+ 2853  vim app.py
+ 2854  chalice deploy
+ 2855  chalice delete 
+ 2856  cd ..
+ 2857  ll
+ 2858  rm -rf hello-world
+ 2859  rm -rf hello-world2
+ 2860  rm -rf thumimg
+ 2861  mkdir meetup 
+ 2862  cd ..
+ 2863  cd code
+ 2864  rm -rf meetup
+ 2865  mkdir meetup-kol
+ 2866  cd meetup-kol
+ 2867  ¬
+ 2868  ll
+ 2869  mkdir hello-world 
+ 2870  cd hello-world
+ 2871  vim app.py
+ 2872  ll
+ 2873  zip -r app.zip app.py
+ 2874  ll
+ 2875  aws lambda create-function \\n    --function-name hello \\n    --handler app.handler \\n    --runtime python3.6 \\n    --role arn:aws:iam::507922848584:role/myLambdaExecutionRole \\n    --zip "fileb://./app.zip"
+ 2876  aws lambda invoke --function-name hello output
+ 2877  ll
+ 2878  cat output
+ 2879  aws lambda invoke --function-name hello --payload '{"name": "suman"}' output
+ 2880  cat output
+ 2881  cd ..
+ 2882  chalice new-project hello-world2
+ 2883  ll
+ 2884  cd hello-world2
+ 2885  ll
+ 2886  vim app.py
+ 2887  ll
+ 2888  echo "boto3" > requirements.txt
+ 2889  echo "Pillow" >> requirements.txt
+ 2890  cat requirements.txt
+ 2891  vim app.py
+ 2892  chalice deploy
+ 2893  cd ..
+ 2894  rm -rf meetup-kol
+ 2895  ll
+ 2896  cd ..
+ 2897  cd IIT_J_PG
+ 2898  ll
+ 2899  cd code
+ 2900  ll
+ 2901  cd ML
+ 2902  LL
+ 2903  ll
+ 2904  code .
+ 2905  jupyter-notebook
+ 2906  cd IIT_J_PG
+ 2907  cd code
+ 2908  ll
+ 2909  cd ML
+ 2910  ll
+ 2911  cd A2
+ 2912  ll
+ 2913  cd Q1
+ 2914  ll
+ 2915  python Q1.py
+ 2916  ll
+ 2917  pip install pcat
+ 2918  ll
+ 2919  open Histrogram_with_test_data.png
+ 2920  sudo easy_install Pygments\n
+ 2921  alias pcat='pygmentize -f terminal256 -O style=native -g'\n
+ 2922  pcat Histrogram_with_test_data.png
+ 2923  python Q1.py
+ 2924  ll
+ 2925  cat Histrogram_with_both_test_and_training_data.png
+ 2926  ll
+ 2927  open Histrogram_with_both_test_and_training_data.png
+ 2928  python Q1.py
+ 2929  cd ~/AWS
+ 2930  cd Presentations_Talk
+ 2931  ll
+ 2932  cd 2020
+ 2933  ll
+ 2934  cd 2020-04-15-FB-Live-CDK-Python/
+ 2935  code .
+ 2936  cd ~
+ 2937  cd AWS
+ 2938  ll
+ 2939  cd code
+ 2940  l
+ 2941  lcd Serverless-Demo
+ 2942  ll
+ 2943  cd Serverless-Demo
+ 2944  ll
+ 2945  cd ..
+ 2946  cd Serverless-Demo-Chalice
+ 2947  ll
+ 2948  cd img-thumb
+ 2949  ll
+ 2950  chalice deploy
+ 2951  vim app.py
+ 2952  cd ..
+ 2953  ll
+ 2954  cd ,,
+ 2955  ll
+ 2956  cd ..
+ 2957  ll
+ 2958  cd Serverless-Demo
+ 2959  ll
+ 2960  cd chalice_image_thumbnails-2
+ 2961  ll
+ 2962  vim app.py
+ 2963  cd ..
+ 2964  ll
+ 2965  cd ll
+ 2966  cd ..
+ 2967  ll
+ 2968  cd Serverless-Demo-Chalice
+ 2969  ll
+ 2970  cd img-thumb
+ 2971  ll
+ 2972  vim app.py
+ 2973  chalice deploy 
+ 2974  jupyter-notebook
+ 2975  cd Downloads
+ 2976  jupyter-notebook
+ 2977  cd IIT_J_PG
+ 2978  ll
+ 2979  cd code
+ 2980  ll
+ 2981  cd ML
+ 2982  ll
+ 2983  cd a2
+ 2984  ll
+ 2985  cd Q1
+ 2986  ll
+ 2987  cd ..
+ 2988  ll
+ 2989  pwd
+ 2990  ll
+ 2991  code .
+ 2992  jupyter-notebook
+ 2993  cd IIT_J_PG
+ 2994  cd code
+ 2995  cd ml
+ 2996  ll
+ 2997  cd A2
+ 2998  ll
+ 2999  cd Q1
+ 3000  ll
+ 3001  python Q1.py
+ 3002  ll
+ 3003  python ML-Q1.py
+ 3004  python Q1.py
+ 3005  cd ,,
+ 3006  cd ~
+ 3007  cd AWS
+ 3008  cd Blogs
+ 3009  ll
+ 3010  cd Artificial_AI_Engineer_Serise
+ 3011  ll
+ 3012  cd 2.kNN
+ 3013  ll
+ 3014  code .
+ 3015  cd code
+ 3016  cd IIT_J_PG
+ 3017  ll
+ 3018  cd code/ML
+ 3019  ll
+ 3020  cd A2
+ 3021  ll
+ 3022  cd Q1
+ 3023  ll
+ 3024  python Q1.py
+ 3025  source /Users/debnsuma/opt/anaconda3/bin/activate
+ 3026  conda activate base
+ 3027  /Users/debnsuma/opt/anaconda3/bin/python
+ 3028  ll
+ 3029  cd ..
+ 3030  cd Q2
+ 3031  ll
+ 3032  python Q2.py
+ 3033  ll
+ 3034  python Q2.py
+ 3035  pwd
+ 3036  cd ..
+ 3037  cd Q3
+ 3038  ll
+ 3039  python Q3.py
+ 3040  pwd
+ 3041  cd ..
+ 3042  cd Q1
+ 3043  ll
+ 3044  python Q1.py
+ 3045  cd -
+ 3046  pwd
+ 3047  cd Q3
+ 3048  ll
+ 3049  python Q3.py
+ 3050  ll
+ 3051  open Model_Evaluations_Test_Val.png
+ 3052  python Q3.py
+ 3053  ll
+ 3054  rm -rf Model_Evaluations_T*
+ 3055  python Q3.py
+ 3056  l
+ 3057  ll
+ 3058  open Model_Evaluations_Test.png
+ 3059  open Model_Evaluations_Train_Val.png
+ 3060  python Q3.py
+ 3061  ll
+ 3062  python Q3.py
+ 3063  ll
+ 3064  rm -rf boundary_plot_*
+ 3065  ll
+ 3066  rm -rf boundary_plot_*
+ 3067  python Q3.py
+ 3068  ll
+ 3069  pwd
+ 3070  cd ..
+ 3071  cd Q1
+ 3072  ll
+ 3073  python Q1.py
+ 3074  pwd
+ 3075  cd ../Q3
+ 3076  ll
+ 3077  python Q3.py
+ 3078  pwd
+ 3079  cd ..
+ 3080  cd - 
+ 3081  ll
+ 3082  python p3
+ 3083  python Q3.py
+ 3084  pwd
+ 3085  cd ../..
+ 3086  ll
+ 3087  cd A2
+ 3088  code .
+ 3089  ll
+ 3090  cd Q1
+ 3091  ll
+ 3092  python Q1.py
+ 3093  ll
+ 3094  cd ..
+ 3095  ll
+ 3096  cd Q2
+ 3097  ll
+ 3098  python Q2.py
+ 3099  cd ..
+ 3100  ll
+ 3101  cd Q3
+ 3102  ll
+ 3103  python Q3.py
+ 3104  pwd
+ 3105  cd ..
+ 3106  ll
+ 3107  cd ..
+ 3108  ll
+ 3109  git add .
+ 3110  cd A2 
+ 3111  git commit -m "Q3 added"
+ 3112  git push 
+ 3113  ll
+ 3114  pwd
+ 3115  git add .
+ 3116  git commit -m "Q3 added"
+ 3117  git push 
+ 3118  git commit -m "Q3 added"
+ 3119  pwd
+ 3120  ll
+ 3121  git add .
+ 3122  git commit -m "Q3 added"
+ 3123  ll
+ 3124  cd ..
+ 3125  ll
+ 3126  git commit -m "Q3 added"
+ 3127  ll
+ 3128  git status
+ 3129  git pull
+ 3130  git status
+ 3131  pwd
+ 3132  ls -ltra 
+ 3133  cd A2 
+ 3134  ll
+ 3135  touch readme
+ 3136  git add .
+ 3137  git commit -m "q3 fixed"
+ 3138  rm -rf readme
+ 3139  pwd
+ 3140  ll
+ 3141  cd Q1
+ 3142  ll
+ 3143  cd ..
+ 3144  git add .
+ 3145  pwd
+ 3146  git commit -m "fixed Q3"
+ 3147  git push
+ 3148  cd aws
+ 3149  cd code
+ 3150  ll
+ 3151  cd ML
+ 3152  ll
+ 3153  cd 0.DecissionTree
+ 3154  ll
+ 3155  cd ..
+ 3156  cd Blogs
+ 3157  ll
+ 3158  cd Artificial_AI_Engineer_Serise
+ 3159  ll
+ 3160  cd 1.\ Decission\ Tree
+ 3161  ll
+ 3162  cd ..
+ 3163  ll
+ 3164  cd AI-ML-Algo2020
+ 3165  ll
+ 3166  cd 01.Decision_Tree
+ 3167  ll
+ 3168  jupyter-notebook
+ 3169  cd aws
+ 3170  ll
+ 3171  cd Blogs
+ 3172  ll
+ 3173  cd Artificial_AI_Engineer_Serise
+ 3174  ll
+ 3175  cd AI-ML-Algo2020
+ 3176  ll
+ 3177  ll 01.Decision_Tree
+ 3178  pwd
+ 3179  ll
+ 3180  mkdir 02.k-NN
+ 3181  cd 02.k-NN
+ 3182  ll
+ 3183  mv ~/Downloads/knn_01.ipynb .
+ 3184  ll
+ 3185  git add .
+ 3186  git commit -m "added knn example"
+ 3187  git push
+ 3188  pwd
+ 3189  cd ~
+ 3190  ll
+ 3191  cd cod
+ 3192  cd code
+ 3193  ll
+ 3194  cd AWS
+ 3195  ll
+ 3196  cd code
+ 3197  ll
+ 3198  cd aws_ai_101
+ 3199  ll
+ 3200  jupyter-notebook
+ 3201  cd .aws
+ 3202  ll
+ 3203  cat credentials
+ 3204  cd ~
+ 3205  ll
+ 3206  cd code
+ 3207  cd AWS
+ 3208  ll
+ 3209  cd ..
+ 3210  pwd
+ 3211  ll
+ 3212  cd IIT_J_PG
+ 3213  ll
+ 3214  cd code
+ 3215  ll
+ 3216  cd ML
+ 3217  ll
+ 3218  cd A2 
+ 3219  ll
+ 3220  jupyter-notebook
+ 3221  pwd
+ 3222  ll
+ 3223  cd !
+ 3224  cd ~
+ 3225  cd AWS
+ 3226  ll
+ 3227  cd Blogs
+ 3228  ll
+ 3229  cd Artificial_AI_Engineer_Serise
+ 3230  ll
+ 3231  cd 2.kNN
+ 3232  ll
+ 3233  code .
+ 3234  cd ~
+ 3235  cd IIT_J_PG
+ 3236  ll
+ 3237  cd code
+ 3238  ll
+ 3239  cd ML
+ 3240  ll
+ 3241  cd A2
+ 3242  ll
+ 3243  cd Q3
+ 3244  ll
+ 3245  jupyter-notebook
+ 3246  pwd
+ 3247  cd ..
+ 3248  ll
+ 3249  jupyter-notebook
+ 3250  pwd
+ 3251  ll
+ 3252  jupyter-notebook
+ 3253  ll
+ 3254  df -h
+ 3255  cd /Volumes/GoogleDrive
+ 3256  ll
+ 3257  cd My\ Drive
+ 3258  ll
+ 3259  cd IIT\ Jodhpur
+ 3260  ll
+ 3261  cd Semester1
+ 3262  ll
+ 3263  cd Ma
+ 3264  cd Machine\ Learning\ I
+ 3265  ll
+ 3266  cd algorithms_bundle
+ 3267  ll
+ 3268  cd machine_learning_algorithms_from_scratch
+ 3269  ll
+ 3270  cd code
+ 3271  ll
+ 3272  cd chapter_12
+ 3273  ll
+ 3274  code .
+ 3275  cd ..
+ 3276  ll
+ 3277  cd ..
+ 3278  ll
+ 3279  cd ..
+ 3280  cd Assignments
+ 3281  ll
+ 3282  cd Assignment2
+ 3283  ll
+ 3284  cd ForSubmission
+ 3285  ll
+ 3286  cd MT19AIE321_PA2
+ 3287  ll
+ 3288  python MT19AIE321_Q1.py
+ 3289  python MT19AIE321_Q2.py
+ 3290  python MT19AIE321_Q3.py
+ 3291  pwd
+ 3292  ll
+ 3293  code .
+ 3294  python MT19AIE321_Q2.py
+ 3295  python MT19AIE321_Q2.py ../../A2/Q2/heart.csv
+ 3296  pwd
+ 3297  ll
+ 3298  python MT19AIE321_Q2.py ../../A2/Q2/heart.csv
+ 3299  python MT19AIE321_Q3.py
+ 3300  python MT19AIE321_Q2.py 
+ 3301  python MT19AIE321_Q2.py ../../A2/Q2/heart.csv
+ 3302  python MT19AIE321_Q1.py
+ 3303  pwd
+ 3304  cd ~/Downloads
+ 3305  ll
+ 3306  cd MT19AIE321_PA2
+ 3307  ll
+ 3308  python3 MT19AIE321_Q1.py
+ 3309  ll ~/Google\ Drive\ File\ Stream/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/Assignment2/A2/Q2/heart.csv
+ 3310  python3 MT19AIE321_Q2.py "~/Google\ Drive\ File\ Stream/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/Assignment2/A2/Q2/heart.csv"
+ 3311  cp /Google\ Drive\ File\ Stream/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/Assignment2/A2/Q2/heart.csv .
+ 3312  python3 MT19AIE321_Q2.py "\Google\ Drive\ File\ Stream/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/Assignment2/A2/Q2/heart.csv"
+ 3313  python3 MT19AIE321_Q2.py "~/Google\ Drive\ File\ Stream/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/Assignment2/A2/Q2/heart.csv"
+ 3314  ll python3 MT19AIE321_Q2.py "~/Google\ Drive\ File\ Stream/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/Assignment2/A2/Q2/heart.csv"
+ 3315  python3 MT19AIE321_Q2.py ~/Desktop/heart.csv
+ 3316  pwd
+ 3317  python3 MT19AIE321_Q2.py //Users/debnsuma/Desktop/heart.csv
+ 3318  cp /Users/debnsuma/Downloads/MT19AIE321_PA2 .
+ 3319  cp ~/Desktop/heart.csv .
+ 3320  python3 MT19AIE321_Q2.py heart.csv
+ 3321  python3 MT19AIE321_Q3.py
+ 3322  pwd 
+ 3323  cd ~
+ 3324  cd Downloads
+ 3325  ll
+ 3326  python Q2.py
+ 3327  python Q2.py winequality-white.csv
+ 3328  vim Q2.py
+ 3329  code Q2.py
+ 3330  python Q2.py
+ 3331  python Q2.py ~/Desktop/heart.csv
+ 3332  bg
+ 3333  kill -9 28488
+ 3334  python Q2_old.py
+ 3335  python NEW_Q2.py
+ 3336  python NEW_Q2.py heart.csv
+ 3337  python Q1.py
+ 3338  cd ~
+ 3339  cd Downloads
+ 3340  l
+ 3341  jupyter-notebook
+ 3342  pwd
+ 3343  ll
+ 3344  cd aws
+ 3345  ll
+ 3346  cd Blogs
+ 3347  ll
+ 3348  cd Artificial_AI_Engineer_Serise
+ 3349  l
+ 3350  ll
+ 3351  cd 2.kNN
+ 3352  ll
+ 3353  code .
+ 3354  jupyter-notebook
+ 3355  cd IIT_J_PG
+ 3356  cd code
+ 3357  ll
+ 3358  cd ML
+ 3359  ll
+ 3360  jupyter-notebook
+ 3361  cd IIT_J_PG
+ 3362  cd AI
+ 3363  ll
+ 3364  cd code
+ 3365  ll
+ 3366  cd A
+ 3367  cd AI
+ 3368  ll
+ 3369  jupyter-notebook
+ 3370  pwd
+ 3371  ll
+ 3372  cd AWS
+ 3373  ll
+ 3374  cd code
+ 3375  ll
+ 3376  git clone https://github.com/debnsuma/Comprehend-Demo.git
+ 3377  cd Comprehend-Demo
+ 3378  ll
+ 3379  mkdir 1-comprehend-text
+ 3380  mkdir 2-comprehend-medical
+ 3381  ll
+ 3382  cd 1-comprehend-text
+ 3383  ll
+ 3384  pwd
+ 3385  cd ..
+ 3386  ll
+ 3387  jupyter-notebook
+ 3388  git add .
+ 3389  git comment -m "first commit"
+ 3390  git commit -m "first commit"
+ 3391  git push 
+ 3392  cd~ 
+ 3393  ll
+ 3394  cd ~
+ 3395  cd IIT_J_PG
+ 3396  ll
+ 3397  cd code
+ 3398  ll
+ 3399  cd AI
+ 3400  ll
+ 3401  mkdir PL-Assignment 
+ 3402  cd PL-Assignment
+ 3403  ll
+ 3404  mkdir cs50
+ 3405  cp -r ~/Downloads/src/* cs50
+ 3406  ll
+ 3407  code .
+ 3408  jupyter-notebook
+ 3409  source /Users/debnsuma/opt/anaconda3/bin/activate
+ 3410  conda activate base
+ 3411  /Users/debnsuma/opt/anaconda3/bin/python /Users/debnsuma/IIT_J_PG/code/AI/PL-Assignment/cs50/harry.py
+ 3412  cd IIT_J_PG
+ 3413  ll
+ 3414  cd code
+ 3415  ll
+ 3416  cd ai
+ 3417  ll
+ 3418  cd PL-Assignment
+ 3419  ll
+ 3420  code .
+ 3421  jupyter-notebook
+ 3422  pwd
+ 3423  cd Downloads
+ 3424  ll
+ 3425  cd amazon
+ 3426  cd aima-python-master
+ 3427  ll
+ 3428  jupyter-notebook
+ 3429  pwd
+ 3430  cd ~
+ 3431  ll
+ 3432  cd IIT_J_PG
+ 3433  ll
+ 3434  cd code
+ 3435  ll
+ 3436  cd AI
+ 3437  ll
+ 3438  git clone https://github.com/aimacode/aima-python.git\n\n
+ 3439  cd aima-python
+ 3440  ll
+ 3441  pip install -r requirements.txt
+ 3442  ll
+ 3443  python logic.py
+ 3444  git submodule init\ngit submodule update
+ 3445  git submodule update
+ 3446  jupyter-notebook
+ 3447  source /Users/debnsuma/opt/anaconda3/bin/activate
+ 3448  conda activate base
+ 3449  /Users/debnsuma/opt/anaconda3/bin/python /Users/debnsuma/IIT_J_PG/code/AI/PL-Assignment/my_logic.py
+ 3450  pwd
+ 3451  python 
+ 3452  cd AWS
+ 3453  ll
+ 3454  cd code
+ 3455  ll
+ 3456  cd Comprehend-Demo
+ 3457  ll
+ 3458  jupyter-notebook
+ 3459  cd ~
+ 3460  cd Downloads
+ 3461  ll
+ 3462  cd amazon-comprehend-medical-image-deidentification-master
+ 3463  ll
+ 3464  jupyter-notebook
+ 3465  cd Downloads
+ 3466  ll
+ 3467  cd aws-comprehend-analyzing-text
+ 3468  jupyter-notebook
+ 3469  code .
+ 3470  pwd
+ 3471  ll
+ 3472  cd code
+ 3473  ll
+ 3474  pwd
+ 3475  cd aws
+ 3476  ll
+ 3477  cd Workshops
+ 3478  ll
+ 3479  cd AWS-ML
+ 3480  ll
+ 3481  cd ml-on-aws-acdpune-feb-2020
+ 3482  ll
+ 3483  code .
+ 3484  mkdocs serve
+ 3485  ll
+ 3486  pip install mkdocs
+ 3487  pip install mkdocs-material
+ 3488  mkdocs serve
+ 3489  pip install --upgrade pip\n
+ 3490  mkdocs --version
+ 3491  mkdoc serve
+ 3492  mkdocs serve
+ 3493  pwd
+ 3494  ll
+ 3495  cd ..
+ 3496  ll
+ 3497  cd ml-on-aws-acdpune-feb-2020
+ 3498  ll
+ 3499  pwd
+ 3500  pip install mkdocs-material
+ 3501  mkdocs serve
+ 3502  cd IIT_J_PG
+ 3503  ll
+ 3504  cd code
+ 3505  ll
+ 3506  cd AI
+ 3507  ll
+ 3508  cd PL-Assignment
+ 3509  ll
+ 3510  cp ~/Downloads/pa-fr2.py .
+ 3511  code .
+ 3512  ll
+ 3513  python pa-fr2.py
+ 3514  jupyter-notebook
+ 3515  cd IIT_J_PG
+ 3516  ll
+ 3517  cd code
+ 3518  ll
+ 3519  cd AI
+ 3520  ll
+ 3521  cd PL-Assignment
+ 3522  ll
+ 3523  python pa-fr2.py
+ 3524  cd Downloads
+ 3525  python Solution.py
+ 3526  cd ~
+ 3527  cd IIT_J_PG
+ 3528  cd code/AI/
+ 3529  ll
+ 3530  cd PL-Assignment
+ 3531  ll
+ 3532  cd aima-python-master\ 2
+ 3533  ll
+ 3534  python logic.py
+ 3535  python pa-fr2.py
+ 3536  move PL_Dry_Playground.py
+ 3537  move pa-fr2.py PL_Dry_Playground.py
+ 3538  mv pa-fr2.py PL_Dry_Playground.py
+ 3539  python PL_Dry_Playground.py
+ 3540  ll
+ 3541  cp MT19AIE321_AI_Prog_Assig2_Fractal2/MT19AIE321_Fractal2_Assignment_AI.py .
+ 3542  python MT19AIE321_Fractal2_Assignment_AI.py
+ 3543  cat input.txt
+ 3544  python MT19AIE321_Fractal2_Assignment_AI.py
+ 3545  pwd
+ 3546  ll
+ 3547  cd ..
+ 3548  ll
+ 3549  cd ..
+ 3550  ll
+ 3551  python PL_ASSIGNMENT.py
+ 3552  ll
+ 3553  cd ML
+ 3554  ll
+ 3555  cd A3
+ 3556  mkdir A3 
+ 3557  ll
+ 3558  cd A3 
+ 3559  jupyter-notebook
+ 3560  ppwd
+ 3561  pwd
+ 3562  ll
+ 3563  cd ..
+ 3564  ll
+ 3565  cd ,,
+ 3566  cd ..
+ 3567  cd AWS
+ 3568  ll
+ 3569  cd code
+ 3570  ll
+ 3571  cd ML
+ 3572  ll
+ 3573  mkdir 1.kNN
+ 3574  cd 1.kNN
+ 3575  jupyter-notebook
+ 3576  cd ..
+ 3577  cd IIT_J_PG
+ 3578  ll
+ 3579  cd code
+ 3580  ll
+ 3581  cd ML
+ 3582  ll
+ 3583  cd A2
+ 3584  ll
+ 3585  jupyter-notebook
+ 3586  cd ..
+ 3587  ll
+ 3588  cd A3
+ 3589  ll
+ 3590  cd Q1
+ 3591  ll
+ 3592  jupyter-notebook
+ 3593  ll
+ 3594  cd ..
+ 3595  ll
+ 3596  cd ..
+ 3597  cd ML
+ 3598  ll
+ 3599  git add .
+ 3600  git commit -m "kmeans added" 
+ 3601  ll
+ 3602  git push
+ 3603  ll
+ 3604  cd A3
+ 3605  ll
+ 3606  cd Q1
+ 3607  ll
+ 3608  git add .
+ 3609  git commit -m "Q1 added spectral"" 
+ 3610  git commit -m "Q1 added spectral"
+ 3611  git push
+ 3612  cd Downloads
+ 3613  ll
+ 3614  jupyter-notebook
+ 3615  cd IIT_J_PG
+ 3616  ll
+ 3617  cd code
+ 3618  ll
+ 3619  cd ML
+ 3620  ll
+ 3621  cd A3 
+ 3622  ll
+ 3623  cd Q1
+ 3624  ll
+ 3625  cp Q1.k-means-spectral.ipynb Q2.EM.ipynb
+ 3626  jupyter-notebook
+ 3627  cd IIT_J_PG
+ 3628  cd code
+ 3629  ll
+ 3630  cd ML
+ 3631  ll
+ 3632  cd A3
+ 3633  ll
+ 3634  cd Q1
+ 3635  ll
+ 3636  cd ..
+ 3637  mkdir Q2
+ 3638  mv Q1/Q2.EM.ipynb Q2
+ 3639  ll
+ 3640  cd Q2
+ 3641  ll
+ 3642  git add .
+ 3643  git commit -m "EM added"
+ 3644  git push
+ 3645  cd IIT_J_PG
+ 3646  ll
+ 3647  cd code
+ 3648  ll
+ 3649  cd ML
+ 3650  ll
+ 3651  mkdir A4
+ 3652  jupyter-notebook
+ 3653  cd IIT_J_PG
+ 3654  ll
+ 3655  cd code
+ 3656  ll
+ 3657  cd ML
+ 3658  ll
+ 3659  cd A3
+ 3660  ll
+ 3661  code . 
+ 3662  ll
+ 3663  cd Q1
+ 3664  ll
+ 3665  python MT19AIE321_PA1_Q1.py
+ 3666  python MT19AIE321_PA1_Q1.py jain.txt
+ 3667  ll
+ 3668  open kmeans_cluster.png
+ 3669  python MT19AIE321_PA1_Q1.py jain.txt
+ 3670  python MT19AIE299_PA1_Q1.py jain.txt
+ 3671  ll
+ 3672  cd ,,
+ 3673  cd ..
+ 3674  ll
+ 3675  cd Q2
+ 3676  ll
+ 3677  python MT19AIE321_PA1_Q2.py
+ 3678  ll
+ 3679  python MT19AIE321_PA1_Q2.py
+ 3680  ll
+ 3681  open em_cluster_img.png
+ 3682  python MT19AIE321_PA1_Q2.py
+ 3683  open em_cluster_img.png
+ 3684  python MT19AIE321_PA1_Q2.py
+ 3685  open em_cluster_img.png
+ 3686  python MT19AIE321_PA1_Q2.py
+ 3687  open kmeans_cluster.png
+ 3688  python MT19AIE321_PA1_Q2.py
+ 3689  ll
+ 3690  python MT19AIE321_PA1_Q2.py
+ 3691  open kmeans_cluster.png
+ 3692  python MT19AIE321_PA1_Q2.py
+ 3693  open kmeans_cluster.png
+ 3694  ll
+ 3695  python MT19AIE321_PA1_Q2.py
+ 3696  python MT19AIE299_PA1_Q2.py
+ 3697  open kmeans_cluster.png
+ 3698  ll
+ 3699  python MT19AIE299_PA1_Q2.py
+ 3700  ll
+ 3701  python MT19AIE299_PA1_Q2.py
+ 3702  ll
+ 3703  rm 0rf *.png
+ 3704  rm -rf *.png
+ 3705  ll
+ 3706  python MT19AIE299_PA1_Q2.py
+ 3707  open em_cluster.png
+ 3708  git add .
+ 3709  git commit -m ".py files added"
+ 3710  git push
+ 3711  pwd
+ 3712  cd ..
+ 3713  ll
+ 3714  git add 
+ 3715  git add .
+ 3716  git commit -m "pca added"
+ 3717  git push
+ 3718  ll
+ 3719  cd A4
+ 3720  ll
+ 3721  rm -rf mnist_t*
+ 3722  git commit -m "pca added"
+ 3723  git push
+ 3724  ll
+ 3725  gi add .
+ 3726  git add .
+ 3727  git commit -m "pca added"
+ 3728  git push
+ 3729  fit clean 
+ 3730  git clean
+ 3731  ll
+ 3732  ls -a
+ 3733  cd ..
+ 3734  cd A3
+ 3735  ll
+ 3736  cd Q2
+ 3737  ll
+ 3738  python MT19AIE321_PA1_Q2.py
+ 3739  cd ..
+ 3740  cd Q1
+ 3741  ll
+ 3742  python MT19AIE321_PA1_Q1.py jain.txt
+ 3743  cd ..
+ 3744  cd Q2
+ 3745  ll
+ 3746  cd playground
+ 3747  ll
+ 3748  cd ..
+ 3749  ll
+ 3750  rm -rf *.png
+ 3751  ll
+ 3752  python MT19AIE321_PA1_Q2.py
+ 3753  open em_cluster.png
+ 3754  open kmeans_cluster.png
+ 3755  ll
+ 3756  python MT19AIE299_PA1_Q2.py
+ 3757  open em_cluster.png kmeans_cluster.png
+ 3758  open em_cluster.png kmeans_cluster.png actual_data.png
+ 3759  ll
+ 3760  python MT19AIE321_PA1_Q2.py
+ 3761  open kmeans_cluster.png
+ 3762  python MT19AIE321_PA1_Q2.py
+ 3763  open kmeans_cluster.png
+ 3764  ll
+ 3765  python MT19AIE321_PA1_Q2.py
+ 3766  ll
+ 3767  cd ..
+ 3768  ll
+ 3769  cd Q1
+ 3770  ll
+ 3771  python MT19AIE321_PA1_Q1.py jain.txt
+ 3772  pwd
+ 3773  python MT19AIE321_PA1_Q1.py /Users/debnsuma/IIT_J_PG/code/ML/A3/Q1/jain.txt
+ 3774  pwd
+ 3775  ll
+ 3776  python MT19AIE321_PA1_Q1.py jain.txt
+ 3777  cd /Volumes/GoogleDrive/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/F2/A3/MT19AIE321_PA1 
+ 3778  ll
+ 3779  python MT19AIE321_PA1_Q2.py
+ 3780  ll
+ 3781  python MT19AIE321_PA1_Q1.py /Users/debnsuma/IIT_J_PG/code/ML/A3/Q1/jain.txt
+ 3782  cd ~/Downloads
+ 3783  cd MT19AIE321_PA1
+ 3784  ll
+ 3785  python MT19AIE321_PA1_Q2.py
+ 3786  python MT19AIE321_PA1_Q1.py /Users/debnsuma/IIT_J_PG/code/ML/A3/Q1/jain.txt
+ 3787  cd ..
+ 3788  cd MT19AIE321_PA1/
+ 3789  ll
+ 3790  python MT19AIE321_PA1_Q1.py /Users/debnsuma/IIT_J_PG/code/ML/A3/Q1/jain.txt
+ 3791  python MT19AIE321_PA1_Q2.py
+ 3792  cd IIT_J_PG
+ 3793  ll
+ 3794  cd ¬
+ 3795  ll
+ 3796  cd code
+ 3797  ll
+ 3798  cd ML
+ 3799  ll
+ 3800  cd A4
+ 3801  ll
+ 3802  jupyter-notebook
+ 3803  cd IIT_J_PG
+ 3804  ll
+ 3805  cd code
+ 3806  ll
+ 3807  cd ML
+ 3808  ll
+ 3809  cd A4
+ 3810  ll
+ 3811  jupyter-notebook
+ 3812  cd IIT_J_PG
+ 3813  ll
+ 3814  cd code
+ 3815  ll
+ 3816  cd ML
+ 3817  ll
+ 3818  cd A4
+ 3819  ll
+ 3820  code .
+ 3821  cd ..
+ 3822  code .
+ 3823  cd A4
+ 3824  ll
+ 3825  python MT19AIE321_PA1_Q1.py
+ 3826  python MT19AIE321_PA1_Q1.py iris.data
+ 3827  ll
+ 3828  rm -rf PCA_Plot_2D.png
+ 3829  python MT19AIE321_PA1_Q1.py iris.data
+ 3830  open PCA_Plot_2D.png
+ 3831  python MT19AIE321_PA1_Q1.py iris.data
+ 3832  ll
+ 3833  open Reconstruction_Error.png PCA_Plot_2D.png
+ 3834  python MT19AIE321_PA1_Q1.py iris.data
+ 3835  ll
+ 3836  open Cumulative_Explained_Variance.png
+ 3837  open *.png
+ 3838  ll
+ 3839  cd ~/Google\ Drive\ File\ Stream/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/F2/A4/MT19AIE321_PA2
+ 3840  ll
+ 3841  python MT19AIE321_PA2_Q1.py ~/IIT_J_PG/code/ML/A4/iris.data
+ 3842  cd ~/IIT_J_PG/code/ML
+ 3843  ll
+ 3844  cd A
+ 3845  cd A4
+ 3846  ll
+ 3847  python MT19AIE321_PA2_Q1.py iris.data
+ 3848  cd /Volumes/GoogleDrive/My\ Drive/IIT\ Jodhpur/Semester1/Machine\ Learning\ I/Assignments/F2/A4/MT19AIE321_PA2 
+ 3849  ll
+ 3850  python MT19AIE321_PA2_Q1.py ~/IIT_J_PG/code/ML/A4/iris.data
+ 3851  open *.png
+ 3852  rm -rf *.png
+ 3853  ll
+ 3854  open MT19AIE321_PA2.pdf
+ 3855  code MT19AIE321_PA2_Q1.py
+ 3856  cd /Users/debnsuma/Downloads/MT19AIE321_PA2\ 2 
+ 3857  ll
+ 3858  python MT19AIE321_PA2_Q1.py ~/IIT_J_PG/code/ML/A4/iris.data
+ 3859  ll
+ 3860  open *.png
+ 3861  cd IIT_J_PG
+ 3862  cd code
+ 3863  ll
+ 3864  cd ML
+ 3865  ll
+ 3866  cd A4
+ 3867  ll
+ 3868  jupyter-notebook
+ 3869  c d..
+ 3870  cd ..
+ 3871  jupyter-notebook
+ 3872  pip install jupyterthemes\n
+ 3873  pip install --upgrade pip
+ 3874  /Users/debnsuma/opt/anaconda3/bin/jupyter-notebook ; exit;
+ 3875  jt -l
+ 3876  jt -t monokai
+ 3877  jupyter-notebook
+ 3878  cd IIT_J_PG/code
+ 3879  ll
+ 3880  cd ML
+ 3881  ll
+ 3882  jupyter-notebook
+ 3883  jt -l
+ 3884  jt -t chesterish
+ 3885  jupyter-notebook
+ 3886  jt -l
+ 3887  jt -r
+ 3888  jupyter-notebook
+ 3889  cd IIT_J_PG
+ 3890  ll
+ 3891  cd code
+ 3892  ll
+ 3893  cd ML
+ 3894  ll
+ 3895  cd A4
+ 3896  ll
+ 3897  python MT19AIE321_PA2_Q1.py iris.data
+ 3898  pwd
+ 3899  ll
+ 3900  cd ..
+ 3901  ll
+ 3902  jupyter-notebook
+ 3903  ll
+ 3904  python
+ 3905  jupyter-notebook
+ 3906  cd aws
+ 3907  ll
+ 3908  cd code
+ 3909  ll
+ 3910  cd monetizing-machine-learning-master
+ 3911  ll
+ 3912  code .
+ 3913  pip install Flask
+ 3914  \tpython3 -m venv simple_flask
+ 3915  source simple_flask/bin/activate
+ 3916  pip3 install Flask
+ 3917  pip install --upgrade pip
+ 3918  cd simple_flask
+ 3919  cd ..
+ 3920  ll
+ 3921  cd myPlayground
+ 3922  ll
+ 3923  export FLASK_APP=main.py
+ 3924  flask run
+ 3925  pip3 install awsebcli
+ 3926  eb --init
+ 3927  eb --init -i
+ 3928  eb init -i
+ 3929  eb create AWSBeanstalkIntroduction
+ 3930  ^[[200~eb terminate AWSBeanstalkIntroduction~
+ 3931  eb terminate AWSBeanstalkIntroduction
+ 3932  ll
+ 3933  cd serverless-hosting-on-amazon-aws
+ 3934  ll
+ 3935  cd ..
+ 3936  ll
+ 3937  cd ..
+ 3938  ll
+ 3939  cd ..
+ 3940  ll
+ 3941  mkdir PythonWebConf2020
+ 3942  cd PythonWebConf2020/dry
+ 3943  ll
+ 3944  cd chapter
+ 3945  cd chapter4
+ 3946  ll
+ 3947  jupyter-notebook
+ 3948  cd aws
+ 3949  cd code
+ 3950  ll
+ 3951  cd PythonWebConf2020
+ 3952  ll
+ 3953  cd dry
+ 3954  ll
+ 3955  cd chapter4
+ 3956  ll
+ 3957  cd ..
+ 3958  cd 02.WineApp
+ 3959  ll
+ 3960  python3 -m venv wineenv
+ 3961  source wineenv/bin/activate
+ 3962  ll
+ 3963  cd web-application
+ 3964  ll
+ 3965  code application.py
+ 3966  source /Users/debnsuma/AWS/code/monetizing-machine-learning-master/simple_flask/bin/activate
+ 3967  /Users/debnsuma/AWS/code/monetizing-machine-learning-master/simple_flask/bin/python3 /Users/debnsuma/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/pyvsc-run-isolated.py pip install -U pylint
+ 3968  python application.py
+ 3969  pip install -r requirements.txt
+ 3970  cat requirements.txt
+ 3971  pip3 install -r requirements.txt
+ 3972  cat requirements.txt
+ 3973  pip3 install python-dateutil
+ 3974  pip3 install pytz
+ 3975  pip3 install scikit-learn
+ 3976  cat requirements.txt
+ 3977  pip3 install scipy
+ 3978  pip3 install siz
+ 3979  pip3 install six
+ 3980  pip3 install sklearn
+ 3981  pip3 install Werkzeug
+ 3982  pip3 freeze 
+ 3983  cat requirements.txt
+ 3984  pip3 install click
+ 3985  pip3 install Flask
+ 3986  pip3 install itsdangerous
+ 3987  ll
+ 3988  cat requirements.txt
+ 3989  pip3 install click
+ 3990  pip install Jinja2
+ 3991  pip install -r requirements.txt
+ 3992  pip3 install python-dateutil
+ 3993  pip3 install pytz
+ 3994  pip3 install scikit-learn
+ 3995  pip3 install Werkzeug
+ 3996  python3 application.py
+ 3997  pip3 install pandas
+ 3998  python3 application.py
+ 3999  cd AWS/code/PythonWebConf2020
+ 4000  ll
+ 4001  cd dry
+ 4002  ll
+ 4003  cd 0
+ 4004  cd 02.WineApp
+ 4005  ll
+ 4006  cd web-application
+ 4007  ll
+ 4008  cd static
+ 4009  ll
+ 4010  cd pickles
+ 4011  ll
+ 4012  pwd
+ 4013  cd ,,
+ 4014  cd ..
+ 4015  code .
+ 4016  python
+ 4017  python3 application.py
+ 4018  ll
+ 4019  open static/images/quality_wine_logo.jpg
+ 4020  python3 application.py
+ 4021  ll
+ 4022  cd ..
+ 4023  ll
+ 4024  ls -ltra 
+ 4025  cd web-application
+ 4026  ll
+ 4027  ls -ltra 
+ 4028  cd .ebextensions
+ 4029  ll
+ 4030  vim wsgi_fix.config
+ 4031  pwd
+ 4032  ll
+ 4033  cd ..
+ 4034  ll
+ 4035  python application.py
+ 4036  ll
+ 4037  tree
+ 4038  ll static
+ 4039  cd .ebextensions
+ 4040  ll
+ 4041  vim wsgi_fix.config
+ 4042  cd ..
+ 4043  ll
+ 4044  python3 application.py
+ 4045  ll
+ 4046  eb init -i
+ 4047  pip install awsebcli --user
+ 4048  pip3 install awscli --user
+ 4049  pip3 install awsebcli --user
+ 4050  deactivate 
+ 4051  eb init -i
+ 4052  pip3 install awsebcli 
+ 4053  eb init -i
+ 4054  ll .ebextensions
+ 4055  vim .ebextensions/wsgi_fix.config
+ 4056  eb create winetest
+ 4057  eb events 
+ 4058  eb --help
+ 4059  ll
+ 4060  cd ..
+ 4061  cd 01.Intro
+ 4062  ll
+ 4063  cd serverless-hosting-on-amazon-aws
+ 4064  ll
+ 4065  ls -ltra 
+ 4066  vim application.py
+ 4067  vim requirements.txt
+ 4068  eb init -i
+ 4069  eb create AWSBeanstalkIntroduction
+ 4070  eb open AWSBeanstalkIntroduction
+ 4071  ll
+ 4072  vim application.py
+ 4073  ll
+ 4074  eb init -i
+ 4075  eb create AWSBeanstalkIntroduction
+ 4076  eb open
+ 4077  eb create AWSBeanstalkIntroduction
+ 4078  eb
+ 4079  ll
+ 4080  vim application.py
+ 4081  ll
+ 4082  cd ..
+ 4083  ll
+ 4084  cd ..
+ 4085  ll
+ 4086  cd 02.WineApp
+ 4087  ll
+ 4088  cd web-application
+ 4089  ll
+ 4090  python3 application.py
+ 4091  ll
+ 4092  ls -lra 
+ 4093  cd ..
+ 4094  ll
+ 4095  ls -ltra 
+ 4096  source wineenv/bin/activate
+ 4097  ll
+ 4098  cd web-application
+ 4099  ll
+ 4100  python3 application.py
+ 4101  pip3 freeze
+ 4102  pip3 freeze > r.txt
+ 4103  diff r.txt requirements.txt
+ 4104  q
+ 4105  cat r.txt
+ 4106  cat requirements.txt
+ 4107  mv r.txt requirements.txt
+ 4108  ll
+ 4109  cat requirements.txt
+ 4110  pwd
+ 4111  cd ~/Downloads/Used-Car-Price-Prediction-master/webApp
+ 4112  l
+ 4113  ll
+ 4114  python3 -m venv usedcarapp
+ 4115  source usedcarapp/bin/activate
+ 4116  ll
+ 4117  pip3 install -r requirements.txt
+ 4118  ll
+ 4119  python3 application.py
+ 4120  cd ..
+ 4121  ll
+ 4122  cd zips
+ 4123  ll
+ 4124  cd AWS_Deploy_WebApp
+ 4125  ll
+ 4126  python3 application.py
+ 4127  ll
+ 4128  ls -ltra 
+ 4129  ll
+ 4130  ls -ltra 
+ 4131  rm -rf .elasticbeanstalk
+ 4132  ll
+ 4133  ls -ltra 
+ 4134  rm -rf .ebextensions
+ 4135  ll
+ 4136  ls -ltra 
+ 4137  ll
+ 4138  code .
+ 4139  ls -ltra 
+ 4140  python3 application.py
+ 4141  ll
+ 4142  cd ..
+ 4143  ll
+ 4144  cd ..
+ 4145  ll
+ 4146  rm -rf *
+ 4147  ll
+ 4148  code .
+ 4149  ll
+ 4150  cd UsedCarPricePredict
+ 4151  ll
+ 4152  cd ~/AWS/cpde
+ 4153  cd ~/AWS/code
+ 4154  ll
+ 4155  cd PythonWebConf2020
+ 4156  ll
+ 4157  cd UsedCarPricePredict
+ 4158  ll
+ 4159  python3 application.py
+ 4160  cd -
+ 4161  ll
+ 4162  cd ~/Downloads/ll
+ 4163  cd ~/Downloads/
+ 4164  ll
+ 4165  cd Used-Car-Price-Prediction-master
+ 4166  ll
+ 4167  cd zips
+ 4168  ll
+ 4169  cd AWS_Deploy_WebApp
+ 4170  ll
+ 4171  python3 application.py
+ 4172  cd ..
+ 4173  ll
+ 4174  cd AWS_Deploy
+ 4175  python3 application.py
+ 4176  ll
+ 4177  ls -ltra 
+ 4178  cd ..
+ 4179  cd AWS_Deploy_WebApp
+ 4180  ll
+ 4181  ls -ltra 
+ 4182  ll
+ 4183  pip install -r requirements.txt
+ 4184  python3 application.py
+ 4185  cd -
+ 4186  cd ~/AWS
+ 4187  ll
+ 4188  cd code/PythonWebConf2020
+ 4189  ll
+ 4190  cd UsedCarPricePredict
+ 4191  ll
+ 4192  python application.py
+ 4193  pwd
+ 4194  python application.py
+ 4195  ll
+ 4196  cd ..
+ 4197  ll
+ 4198  cd ~/AWS
+ 4199  cd code
+ 4200  cd PythonWebConf2020
+ 4201  ll
+ 4202  cd AWS_Deploy_WebApp
+ 4203  ll
+ 4204  python application.py
+ 4205  cd ..
+ 4206  ll
+ 4207  cd AWS_Deploy_WebApp
+ 4208  python application.py
+ 4209  pwd
+ 4210  ll
+ 4211  cd ..
+ 4212  ll
+ 4213  cd AWS_Deploy_WebApp
+ 4214  ll
+ 4215  pip install -r requirements.txt
+ 4216  cd modules
+ 4217  ll
+ 4218  ls -ltra 
+ 4219  cd ..
+ 4220  ll
+ 4221  python3 -m venv carsell
+ 4222  source carsell/bin/activate
+ 4223  python application.py
+ 4224  pip install -r requirements.txt
+ 4225  python application.py
+ 4226  ll
+ 4227  cd modules
+ 4228  ls -ltra 
+ 4229  cd ..
+ 4230  ll
+ 4231  cd ..
+ 4232  ll
+ 4233  zip --help
+ 4234  zip -r archive_name.zip AWS_Deploy_WebApp
+ 4235  ll
+ 4236  tar -czf AWS_Deploy_WebApp.zip AWS_Deploy_WebApp
+ 4237  ll
+ 4238  tar -czf AWS_Deploy_WebApp.zip AWS_Deploy_WebApp
+ 4239  cd AWS_Deploy_WebApp_original
+ 4240  kk
+ 4241  python application.py
+ 4242  cd ..
+ 4243  tar -czf AWS_Deploy_WebApp.zip AWS_Deploy_WebApp_original
+ 4244  python3 -m venv 
+ 4245  python3 -m venv --list
+ 4246  python3 -m venv 
+ 4247  cd aws
+ 4248  ll
+ 4249  cd code
+ 4250  ll
+ 4251  cd PythonWebConf2020
+ 4252  ll
+ 4253  eb --version
+ 4254  mkdir OldCarPriceApp
+ 4255  cd OldCarPriceApp
+ 4256  ll
+ 4257  eb --init -i
+ 4258  eb init -i
+ 4259  ll
+ 4260  ls -ltra 
+ 4261  vim .ebextensions/wsgi_fix.config
+ 4262  touch a
+ 4263  rm 0rf a
+ 4264  rm -rf a
+ 4265  ll
+ 4266  ls -ltra 
+ 4267  mkdir .ebextensions\n
+ 4268  vim .ebextensions/wsgi_fix.config
+ 4269  python5 -l venv
+ 4270  python3 -l venv
+ 4271  python3 -m venv
+ 4272  python3 -m venv flask-eb
+ 4273  ls -ltra 
+ 4274  source flask-eb/bin/activate
+ 4275  pip install -r requirements.txt
+ 4276  ll
+ 4277  python3 application.py
+ 4278  ll
+ 4279  eb create 'OldCarPrice'
+ 4280  cd aws
+ 4281  cd ..
+ 4282  cd IIT_J_PG
+ 4283  cd code
+ 4284  ll
+ 4285  cd ML
+ 4286  ll
+ 4287  jupyter-notebook
+ 4288  code .
+ 4289  cd ~/Downloads/app-200610_151808
+ 4290  ll
+ 4291  cd -
+ 4292  deactivate
+ 4293  cd -
+ 4294  ll
+ 4295  source flask-eb/bin/activate
+ 4296  python3 application.py
+ 4297  jupyter-notebook
+ 4298  cd ~
+ 4299  cd Downloads
+ 4300  ll
+ 4301  cd -
+ 4302  cd ~
+ 4303  ll
+ 4304  pwd
+ 4305  cd ~
+ 4306  cd code
+ 4307  ll
+ 4308  cd AWS
+ 4309  cd code
+ 4310  ll
+ 4311  cd PythonWebConf2020
+ 4312  ll
+ 4313  cd OldCarPriceApp
+ 4314  ll
+ 4315  python application.py
+ 4316  ll 
+ 4317  deactivate
+ 4318  ll
+ 4319  rm -rf flask-eb
+ 4320  lll
+ 4321  ls -ltra 
+ 4322  ll
+ 4323  cd ..
+ 4324  ll
+ 4325  mkdir demoAPP
+ 4326  cd demoAPP
+ 4327  ll
+ 4328  pip install virtualenv==1.7.1.2
+ 4329  virtualenv
+ 4330  vrtualenv virt
+ 4331  virtualenv virt
+ 4332  pip3 install virtualenv
+ 4333  virtualenv virt
+ 4334  exit
+ 4335  cd aws
+ 4336  cd code
+ 4337  ll
+ 4338  cd PythonWebConf2020
+ 4339  ll
+ 4340  cd demoAPP
+ 4341  ll
+ 4342  rm -rf * 
+ 4343  ls -ltra 
+ 4344  virtualenv virt
+ 4345  pip install git+https://github.com/pypa/virtualenv.git@master\n
+ 4346  ll
+ 4347  rm -rf *
+ 4348  ll
+ 4349  virtualenv virt
+ 4350  source virt/bin/activate
+ 4351  ll
+ 4352  pip install flask==1.0.2
+ 4353  pip freeze
+ 4354  ll
+ 4355  vim application.py
+ 4356  python application.py
+ 4357  eb init 
+ 4358  ll
+ 4359  ll /Users/debnsuma/.ssh/aws-eb2.pub.
+ 4360  ll /Users/debnsuma/.ssh/aws-eb2.pub
+ 4361  ll /Users/debnsuma/.ssh/
+ 4362  ll
+ 4363  ll /Users/debnsuma/.ssh/aws-eb2
+ 4364  ll /Users/debnsuma/.ssh/
+ 4365  rm -rf  /Users/debnsuma/.ssh/aws-eb
+ 4366  rm -rf  /Users/debnsuma/.ssh/aws-eb.pub
+ 4367  ll
+ 4368  eb init
+ 4369  ll
+ 4370  ls -ltra 
+ 4371  cd .elasticbeanstalk
+ 4372  ll
+ 4373  vim config.yml
+ 4374  cd ..
+ 4375  ll
+ 4376  ls -ltra 
+ 4377  eb create flask-env
+ 4378  ll
+ 4379  ssh -i "/Users/debnsuma/.ssh/aws-eb2.pem" root@ec2-54-242-174-249.compute-1.amazonaws.com
+ 4380  chmod  400 /Users/debnsuma/.ssh/aws-eb2.pem
+ 4381  chmod  400 /Users/debnsuma/.ssh/aws-eb2.pub
+ 4382  ssh -i "/Users/debnsuma/.ssh/aws-eb2.pub" root@ec2-54-242-174-249.compute-1.amazonaws.com
+ 4383  ll /Users/debnsuma/.ssh
+ 4384  ssh -i "/Users/debnsuma/.ssh/aws-eb2.pub" root@ec2-54-242-174-249.compute-1.amazonaws.com
+ 4385  eb terminate flask-env
+ 4386  ll
+ 4387  ls -ltra 
+ 4388  deactivate
+ 4389  ll
+ 4390  cd ..
+ 4391  ll
+ 4392  cd Car_Price
+ 4393  ll
+ 4394  python application.py
+ 4395  ll
+ 4396  code .
+ 4397  cd ..
+ 4398  kk
+ 4399  ll
+ 4400  cd ,,
+ 4401  cd ..
+ 4402  cd PythonWebCOnf2020_2
+ 4403  ll
+ 4404  cd zips
+ 4405  ll
+ 4406  cd MyApp
+ 4407  ll
+ 4408  ls -ktra 
+ 4409  ls -ltra 
+ 4410  jupyter-notebook
+ 4411  cd code
+ 4412  ll
+ 4413  cd IIT_J_PG
+ 4414  ll
+ 4415  cd code
+ 4416  ll
+ 4417  cd AI
+ 4418  ll
+ 4419  cd PL-Assignment
+ 4420  ll
+ 4421  cat input.txt
+ 4422  python MT19AIE321_Fractal2_Assignment_AI.py
+ 4423  python MT19AIE321_Fractal2_Assignment_AI.py input.txt
+ 4424  jupyter-notebook
+ 4425  code .
+ 4426  python logic.py
+ 4427  ll
+ 4428  cd ..
+ 4429  ll
+ 4430  cd aima-python
+ 4431  ll
+ 4432  python logic.py
+ 4433  python logic.py --help
+ 4434  code .
+ 4435  jupyter-notebook
+ 4436  pwd
+ 4437  ll
+ 4438  cd ..
+ 4439  ll
+ 4440  cd PL-Assignment
+ 4441  ll
+ 4442  code logic.py
+ 4443  python logic.py
+ 4444  pwd
+ 4445  ll
+ 4446  cd MT19AIE321_AI_Prog_Assig2_Fractal2
+ 4447  ll
+ 4448  python MT19AIE321_Fractal2_Assignment_AI.py ../input.txt
+ 4449  cd ~/Downloads
+ 4450  ll
+ 4451  cd aima-python-master
+ 4452  ll
+ 4453  python logic.py
+ 4454  python logic.py --help
+ 4455  pip install -r requirements.txt\n
+ 4456  virtualenv logic
+ 4457  ll
+ 4458  source logic/bin/activate
+ 4459  pip install -r requirements.txt\n
+ 4460  python logic.py
+ 4461  git submodule init\ngit submodule update
+ 4462  cd ..
+ 4463  mkdir logic 
+ 4464  cd logic
+ 4465  ll
+ 4466  git clone https://github.com/aimacode/aima-python.git\n\n
+ 4467  cd aima-python\n
+ 4468  git submodule init\ngit submodule update\n
+ 4469  pip install pytest\n\n
+ 4470  py.test\n\n
+ 4471  jupyter-notebook
+ 4472  cd ~
+ 4473  cd aws
+ 4474  cd code
+ 4475  cd pwc
+ 4476  ll
+ 4477  mv monetizing-machine-learning-master\ 2/* .
+ 4478  ll
+ 4479  rm -rf monetizing-machine-learning-master\ 2
+ 4480  ll
+ 4481  jupyter-notebook
+ 4482  cd code
+ 4483  cd aws
+ 4484  cd code
+ 4485  ll
+ 4486  cd pwc
+ 4487  ll
+ 4488  cd web-application
+ 4489  ll
+ 4490  cd ..
+ 4491  code .
+ 4492  ll
+ 4493  cd web-application
+ 4494  ll
+ 4495  python3 -m venv pwc
+ 4496  source pwc/bin/activate
+ 4497  ll
+ 4498  pip3 install -r requirements.txt
+ 4499  ll
+ 4500  python3 application.py
+ 4501  cd ..
+ 4502  jupyter-notebook
+ 4503  cd web-application
+ 4504  ll
+ 4505  cd ..
+ 4506  ls -ltra 
+ 4507  source pwc/bin/activate
+ 4508  cd web-application
+ 4509  source pwc/bin/activate
+ 4510  python3 application.py
+ 4511  ll
+ 4512  jupyter-notebook
+ 4513  cd ..
+ 4514  jupyter-notebook
+ 4515  cd web-application
+ 4516  ll
+ 4517  python application.py
+ 4518  python3 application.py
+ 4519  python
+ 4520  jupyter-notebook --help
+ 4521  ll
+ 4522  cd ..
+ 4523  ll
+ 4524  cat requirements_jupyter.txt
+ 4525  pip3 install -r requirements_jupyter.txt
+ 4526  jupyter-notebook
+ 4527  python
+ 4528  pip freeze
+ 4529  jupyter-notebook
+ 4530  python
+ 4531  ipython kernel install --user --name=.pwc
+ 4532  jupyter-notebook
+ 4533  cd web-application
+ 4534  ll
+ 4535  python application.py
+ 4536  ll
+ 4537  ls -ltra 
+ 4538  cat .ebextensions/wsgi_fix.config
+ 4539  eb 
+ 4540  eb config
+ 4541  eb init --help
+ 4542  eb init -i
+ 4543  ls -ltra 
+ 4544  vim .ebextensions/wsgi_fix.config
+ 4545  eb create winetest
+ 4546  cd pwc/bin
+ 4547  ll
+ 4548  cd ..
+ 4549  ll
+ 4550  cd ..
+ 4551  ll
+ 4552  ls -ltra 
+ 4553  pip freeze
+ 4554  ssh root@ec2-52-91-196-156.compute-1.amazonaws.com
+ 4555  cd ~/.ssh
+ 4556  ll
+ 4557  vim known_hosts
+ 4558  ssh -i aws-eb-wine root@ec2-52-91-196-156.compute-1.amazonaws.com 
+ 4559  ssh -i aws-eb-wine ec2-user@ec2-52-91-196-156.compute-1.amazonaws.com 
+ 4560  ll
+ 4561  cd web-application
+ 4562  l
+ 4563  cd pwx
+ 4564  ll
+ 4565  pwc
+ 4566  ll
+ 4567  cd bin
+ 4568  ll
+ 4569  python
+ 4570  cd ..
+ 4571  ll
+ 4572  cd ..
+ 4573  ll
+ 4574  cd ..
+ 4575  ll
+ 4576  deactivate
+ 4577  python --version
+ 4578  cd -
+ 4579  ll
+ 4580  ls -ltr 
+ 4581  ls -ltr a
+ 4582  ls -ltra
+ 4583  eb terminate winetest
+ 4584  ll
+ 4585  cat requirements.txt
+ 4586  deactivate
+ 4587  ll
+ 4588  rm -rf pwc
+ 4589  python3 -m venv pwc
+ 4590  source pwc/bin/activate
+ 4591  python
+ 4592  python3
+ 4593  python application.py
+ 4594  pip install -r requirements.txt
+ 4595  pip --version
+ 4596  pop freeze
+ 4597  pip freeze
+ 4598  pip install --upgrade pip
+ 4599  pip freeze
+ 4600  cat requirements.txt
+ 4601  pip freeze > requirements.txt
+ 4602  cat requirements.txt
+ 4603  python application.py
+ 4604  python3 application.py
+ 4605  pwd
+ 4606  ll
+ 4607  ls -ltra 
+ 4608  ll .elasticbeanstalk
+ 4609  cat .elasticbeanstalk/config.yml
+ 4610  q!
+ 4611  ll
+ 4612  ls -ltra 
+ 4613  rm -rf .elasticbeanstalk
+ 4614  cat .ebextensions/wsgi_fix.config
+ 4615  eb init
+ 4616  eb create winetest
+ 4617  ssh -i aws-eb-wine root@ec2-54-197-184-22.compute-1.amazonaws.com
+ 4618  ssh -i aws-eb-wine ec2-users@ec2-54-197-184-22.compute-1.amazonaws.com
+ 4619  ssh -i aws-eb-wine ec2-user@ec2-54-197-184-22.compute-1.amazonaws.com
+ 4620  ssh -i ~/.ssh/winetest ec2-user@ec2-54-197-184-22.compute-1.amazonaws.com
+ 4621  cd web-application
+ 4622  ll
+ 4623  python application.py
+ 4624  ll
+ 4625  source pwc/bin/activate
+ 4626  python application.py
+ 4627  ll
+ 4628  cd ..
+ 4629  ll
+ 4630  cd pwc2020
+ 4631  ll
+ 4632  cd Car-Price-Prediction-bk
+ 4633  ll
+ 4634  cd webApp
+ 4635  ll
+ 4636  ls -ltra 
+ 4637  cd .ebextensions
+ 4638  ll
+ 4639  vim wsgi_fix.config
+ 4640  cd ..
+ 4641  ll
+ 4642  cd ..
+ 4643  ll
+ 4644  cd webApp
+ 4645  ll
+ 4646  cd ..
+ 4647  cd aws-elastic-beanstalk-cli-setup
+ 4648  cd ..
+ 4649  ll
+ 4650  cd webApp
+ 4651  cd AWS_Deploy
+ 4652  ll
+ 4653  cat .ebextensions/wsgi_fix.config
+ 4654  code .ebextensions/wsgi_fix.config
+ 4655  cat .ebextensions/wsgi_fix.config
+ 4656  cd ..
+ 4657  cd pwc
+ 4658  ll
+ 4659  cd web-application
+ 4660  ll
+ 4661  cd .
+ 4662  cd .ebextensions
+ 4663  ll
+ 4664  cat wsgi_fix.config
+ 4665  cd ..
+ 4666  ll
+ 4667  ls -ltra 
+ 4668  rm -rf .ebextensions
+ 4669  ll
+ 4670  ls -ltra 
+ 4671  cd ..
+ 4672  cd web-application\ 2
+ 4673  ls -ltra 
+ 4674  aws config
+ 4675  aws configure
+ 4676  eb --help
+ 4677  ll
+ 4678  cd ..
+ 4679  ll
+ 4680  cd -
+ 4681  cd ~
+ 4682  cd AWS
+ 4683  cd code
+ 4684  ll
+ 4685  cd pex
+ 4686  cd pwc
+ 4687  ll
+ 4688  cd web-application
+ 4689  ll
+ 4690  ls -ltra 
+ 4691  rm -rf .elasticbeanstalk
+ 4692  ll
+ 4693  eb init 
+ 4694  ls -ltra 
+ 4695  vim .elasticbeanstalk/config.yml
+ 4696  eb init --help
+ 4697  eb init --profile ebuser
+ 4698  eb 
+ 4699  aws configure --help
+ 4700  aws configure -h
+ 4701  aws configure
+ 4702  aws configure --help
+ 4703  aws configure -h
+ 4704  vim ~/.aws/credentials 
+ 4705  eb init --profile ebuser
+ 4706  rm -rf .elasticbeanstalk
+ 4707  eb init --profile ebuser
+ 4708  mkdir .ebextensions
+ 4709  cd .ebextensions
+ 4710  code wsgi_fix.config
+ 4711  cd ..
+ 4712  cd pwc2020
+ 4713  ll
+ 4714  cd Car-Price-Prediction-bk
+ 4715  ll
+ 4716  cd webApp
+ 4717  ll
+ 4718  cd AWS_Deploy
+ 4719  ll
+ 4720  ls -ltra 
+ 4721  code .ebextensions/wsgi_fix.config
+ 4722  code wsgi_fix.config
+ 4723  cd ..
+ 4724  ll
+ 4725  cd ..
+ 4726  ll
+ 4727  cd web-application
+ 4728  ls -ltra 
+ 4729  pwd
+ 4730  ll
+ 4731  vim .ebextensions/wsgi_fix.config
+ 4732  eb create winetest
+ 4733  eb terminate 
+ 4734  ll
+ 4735  cd ..
+ 4736  git clone https://github.com/debnsuma/pwc2020.git
+ 4737  cd pwc
+ 4738  cd pwc2020
+ 4739  ll
+ 4740  cp -r ../pwc-original/* .
+ 4741  cat requirements_jupyter.txt
+ 4742  cd ,,
+ 4743  cd ..
+ 4744  kk
+ 4745  ll
+ 4746  cd -
+ 4747  ll
+ 4748  code README.md
+ 4749  python3 -m venv pwc2020\n
+ 4750  source pwc2020/bin/activate
+ 4751  pip install -r requirements.txt
+ 4752  python application.py
+ 4753  pwd
+ 4754  ll
+ 4755  cat README.md
+ 4756  vim README.md
+ 4757  cat README.md
+ 4758  vim README.md
+ 4759  cat README.md
+ 4760  vim README.md
+ 4761  cat README.md
+ 4762  ll
+ 4763  git add .
+ 4764  git commit -m "first commit"
+ 4765  git push
+ 4766  cd ~
+ 4767  cd Do
+ 4768  cd Downloads
+ 4769  deactivate
+ 4770  git clone https://github.com/debnsuma/pwc2020.git
+ 4771  cd pwc2020
+ 4772  ll
+ 4773  source pwc/bin/activate
+ 4774  python application.py
+ 4775  deactivate 
+ 4776  python3 -m venv pwc2020
+ 4777  source pwc2020/bin/activate
+ 4778  ll
+ 4779  pip install -r requirements.txt
+ 4780  python application.py
+ 4781  cd ~/aws
+ 4782  cd code
+ 4783  cd pwc2020
+ 4784  ll
+ 4785  rm -rf pwc
+ 4786  git add .
+ 4787  git commit -m "first commit"
+ 4788  git push
+ 4789  cd ~
+ 4790  cd Do
+ 4791  cd Downloads
+ 4792  rm -rf pwc2020
+ 4793  git clone pip install -r requirements.txt
+ 4794  git clone https://github.com/debnsuma/pwc2020.git
+ 4795  cd -
+ 4796  cd AWS/code
+ 4797  ll
+ 4798  cd pwc2020
+ 4799  ll
+ 4800  ls -ltra 
+ 4801  cd -
+ 4802  cd - 
+ 4803  cd ~/Downloads
+ 4804  ll
+ 4805  git clone Building Web-Apps for ML/AI
+ 4806  git clone https://github.com/debnsuma/pwc2020.git
+ 4807  cd pwc2020
+ 4808  ll
+ 4809  cd pwc2020
+ 4810  cd ..
+ 4811  deactivate
+ 4812  python3 -m venv pwc2020
+ 4813  source pwc2020/bin/activate
+ 4814  pip install -r requirements.txt
+ 4815  python application.py
+ 4816  deactivate
+ 4817  ll
+ 4818  rm -rf pwc2020
+ 4819  deactivate
+ 4820  pwd
+ 4821  ll
+ 4822  rm -rf pwc2020
+ 4823  git add .
+ 4824  git commit -m "first commit"
+ 4825  git push
+ 4826  cd ~
+ 4827  cd Downloads
+ 4828  ll
+ 4829  git clone https://github.com/debnsuma/pwc2020.git
+ 4830  rm -rf pwc2020
+ 4831  git clone https://github.com/debnsuma/pwc2020.git
+ 4832  cd pwc2020
+ 4833  ll
+ 4834  python3 -m venv pwc2020
+ 4835  source pwc2020/bin/activate
+ 4836  pip install -r requirements.txt
+ 4837  python application.py
+ 4838  ll
+ 4839  eb init
+ 4840  mkdir .ebextensions
+ 4841  vi .ebextensions/wsgi_fix.config
+ 4842  cat .ebextensions/wsgi_fix.config
+ 4843  eb create winetest
+ 4844  eb init
+ 4845  eb terminate
+ 4846  eb init
+ 4847  ll
+ 4848  ls -ltra 
+ 4849  rm -rf .elasticbeanstalk
+ 4850  rm -rf .ebextensions
+ 4851  ll
+ 4852  eb init
+ 4853  eb create winetest
+ 4854  eb terminate 
+ 4855  pwd
+ 4856  ll
+ 4857  cd ..
+ 4858  rm -rf pwc2020
+ 4859  cd ~/AWS
+ 4860  cd code
+ 4861  ll
+ 4862  cd pwc
+ 4863  cd pwc2020
+ 4864  ll
+ 4865  git add .
+ 4866  git commit -m "fixed app"
+ 4867  git push
+ 4868  code .
+ 4869  jupyter-notebook
+ 4870  cd aws 
+ 4871  ll
+ 4872  cd code
+ 4873  ll
+ 4874  cd pwc2020
+ 4875  ll
+ 4876  ls -ltra 
+ 4877  pwd
+ 4878  ll
+ 4879  code .
+ 4880  cd ..
+ 4881  ll
+ 4882  rm -rf pwc2020.zip
+ 4883  rm -rf pwc2020
+ 4884  ll
+ 4885  git clone https://github.com/debnsuma/pwc2020.git
+ 4886  cd pwc2020
+ 4887  echo "# pwc2020" >> README.md
+ 4888  ll
+ 4889  cd AWS
+ 4890  cd code
+ 4891  ll
+ 4892  cd pwc2020
+ 4893  ll
+ 4894  cd ..
+ 4895  cd pwc-original
+ 4896  code .
+ 4897  ll
+ 4898  cd web-application
+ 4899  ll
+ 4900  ll pickles
+ 4901  cd ..
+ 4902  code .
+ 4903  ll
+ 4904  mkdir .ebignore
+ 4905  rm -rf .ebignore
+ 4906  vim .ebignore
+ 4907  ll
+ 4908  ls -ltra 
+ 4909  mv .ebignore web-application/
+ 4910  cd web-application
+ 4911  ll
+ 4912  cat requirements.txt
+ 4913  virtualenv virt
+ 4914  source virt/bin/activate
+ 4915  ll
+ 4916  pip install -r requirements.txt
+ 4917  python application.py
+ 4918  ll
+ 4919  ls -ltra 
+ 4920  rm -rf .elasticbeanstalk
+ 4921  ll
+ 4922  eb init -p python-3.7 flask-tutorial --region us-east-1
+ 4923  eb create flask-env
+ 4924  ll
+ 4925  ls -ltra 
+ 4926  rm -rf .ebextensions
+ 4927  eb deploy
+ 4928  eb terminate
+ 4929  cd ..
+ 4930  ll
+ 4931  deactivate
+ 4932  we web-application
+ 4933  ll
+ 4934  cd web-application
+ 4935  ll
+ 4936  pythpn3
+ 4937  python3
+ 4938  cd ,,
+ 4939  cd ..
+ 4940  ll
+ 4941  mkdir eb-flask
+ 4942  cd eb-flask
+ 4943  virtualenv virt
+ 4944  source virt/bin/activate
+ 4945  pip install flask==1.0.2
+ 4946  pip freeze > requirements.txt
+ 4947  ll
+ 4948  ls -lrta 
+ 4949  vim application.py
+ 4950  python application.py
+ 4951  vim .ebignore
+ 4952  eb init -p python-3.7 flask-tutorial --region us-east-2
+ 4953  ls -ltra 
+ 4954  eb create flask-env
+ 4955  eb open
+ 4956  ll
+ 4957  code application.py
+ 4958  python application.py
+ 4959  eb deploy
+ 4960  eb open
+ 4961  ll
+ 4962  cat requirements.txt
+ 4963  cat application.py
+ 4964  code application.py
+ 4965  python application.py
+ 4966  pip install -r requirements.txt
+ 4967  python application.py
+ 4968  eb deploy
+ 4969  ll
+ 4970  code application.py
+ 4971  ll
+ 4972  ls -ltra 
+ 4973  cd ..
+ 4974  ll
+ 4975  rm -rf web-application
+ 4976  ll
+ 4977  cd ..
+ 4978  ll
+ 4979  ll p*
+ 4980  ll
+ 4981  pwd
+ 4982  ll
+ 4983  ll p*
+ 4984  ll p
+ 4985  ll d*
+ 4986  cd ..
+ 4987  cd code
+ 4988  ll
+ 4989  cd pwc-original
+ 4990  ll
+ 4991  cd ..
+ 4992  git clone https://github.com/debnsuma/pwc2020.git
+ 4993  cd pwc2020
+ 4994  echo "# pwc2020" >> README.md
+ 4995  ll
+ 4996  code .
