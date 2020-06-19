@@ -81,8 +81,14 @@ def background_process():
 	preds = gbm_model.predict_proba(x_test_tmp[features])
 
 	# get best quality prediction from original quality scale
+	predicted_quality_hash = {3: "Low", 6: "Medium", 9: "High"}
+
 	predicted_quality = [3,6,9][np.argmax(preds[0])]
-	return jsonify({'quality_prediction':predicted_quality, 'image_name': get_wine_image_to_show(color, predicted_quality)})
+	predicted_quality_new = f"{predicted_quality_hash[predicted_quality]} ({predicted_quality})"
+	
+	return jsonify({'quality_prediction':predicted_quality_new, 'image_name': get_wine_image_to_show(color, predicted_quality)})
+
+	#return jsonify({'quality_prediction':predicted_quality, 'image_name': get_wine_image_to_show(color, predicted_quality)})
 
 
 @application.route("/", methods=['POST', 'GET'])

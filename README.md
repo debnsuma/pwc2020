@@ -35,6 +35,8 @@ Wine Quality Predector
 ----------------------
 
 - cd eb-flask
+- virtualenv virt
+- source virt/bin/activate
 - pip install -r requirements.txt
 - python application.py 
 - Open http://127.0.0.1:5000/ in your web browser
